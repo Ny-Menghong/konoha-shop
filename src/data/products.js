@@ -1,5 +1,4 @@
-
-export const products = [
+[
   {
     id: 1,
     name: "Floral Midi",
@@ -7,14 +6,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: true,
-    image: [
-      "https://zandokh.com/image/cache/catalog/products/2026-05/3222602699/AV8A9954-cr-450x672.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602699/AV8A9950.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602699/AV8A9954.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602699/AV8A9953.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602699/AV8A9949.jpg",
-
-    ],
+    image: ['https://i.pinimg.com/originals/7c/cb/96/7ccb96d0fc39cbb0dcd7f90383faf7eb.jpg', 'https://i.pinimg.com/originals/ee/c6/41/eec64132b3fe3c0c24cfc7a7a2aa0778.jpg', 'https://i.pinimg.com/originals/75/d5/34/75d534ff37b16370e5bb520116d525c4.jpg', 'https://i.pinimg.com/originals/28/06/8c/28068c9069483c28d98091ea2fe83fb2.jpg', 'https://i.pinimg.com/originals/6c/05/e4/6c05e4a82369f2be83a289ada2bd04e2.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -26,10 +18,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/cache/catalog/products/2026-05/4122601572/10S26SHS014_Chocolate%20(1)-cr-450x672.jpg",
-      "https://zandokh.com/image/cache/catalog/products/2026-05/4122601572/10S26SHS014_Chocolate%20(2)-cr-450x672.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/87/de/56/87de566fa8b679e7eb5c22f7b35020c6.jpg', 'https://i.pinimg.com/originals/42/49/0c/42490c88aec3cdb4f241aa8772717216.jpg'],
     price: 12,
     discount: 20,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -37,15 +26,17 @@ export const products = [
 
   {
     id: 3,
+
+
+
+
+    
     name: "Embroidered Floral",
     category_for: "Men",
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/4122601528/10S26DSH003_Navy%20(1).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601528/10S26DSH003_Navy%20(2).jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/5b/ad/83/5bad837a5920d3df82363e8d3cd0ff0a.jpg', 'https://i.pinimg.com/originals/15/42/28/154228dbc07c15550d6b17b50b044da5.jpg'],
     price: 15,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -57,12 +48,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3222602693/AV8A0014.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602693/AV8A0010.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602693/AV8A0009.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602693/AV8A0011.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/0f/9d/06/0f9d0686239e425ae23b2a848a66e5c0.png', 'https://i.pinimg.com/originals/cc/76/97/cc769799797858d18701b78252bf16c0.jpg', 'https://i.pinimg.com/originals/c5/d6/58/c5d6581e290480256146ff8c1d3e2a0c.jpg', 'https://i.pinimg.com/originals/52/f4/69/52f4691966d74a6ee330c37b3bf864cd.png'],
     price: 10,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -74,13 +60,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/22226022181/STU_1343.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022181/STU_1337.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022181/STU_1339.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022181/STU_1335.jpg"
-
-    ],
+    image: ['https://i.pinimg.com/originals/ac/cf/df/accfdf980066f2ab126aecaf1d1d7425.png', 'https://i.pinimg.com/originals/2f/64/42/2f6442b990857bfc7bc1a29fc52b90cf.png', 'https://i.pinimg.com/originals/02/d4/48/02d44894b99105d80386ffe859e266e3.jpg', 'https://i.pinimg.com/originals/88/22/5a/88225ad2e353877c26c7b111e26d118d.jpg'],
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve",
     price: 21,
     discount: 100,
@@ -92,12 +72,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3222604723/PTAK0070.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222604723/PTAK0065.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222604723/PTAK0066.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222604723/PTAK0063.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/fe/2d/9c/fe2d9c9db115c33517ef3e53720c68f0.png', 'https://i.pinimg.com/originals/2a/d1/db/2ad1db03603b3cd80633811f6f062298.jpg', 'https://i.pinimg.com/originals/bc/7a/53/bc7a53afa034d847676421600c037f60.png', 'https://i.pinimg.com/originals/ae/3e/f7/ae3ef75d5eda6d4e3f251484eac36730.png'],
     price: 23,
     discount: 5,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -109,12 +84,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/5232508036/STU_2622.jpg",
-      "https://zandokh.com/image/catalog/products/5232508036/STU_2619.jpg",
-      "https://zandokh.com/image/catalog/products/5232508036/STU_2620.jpg",
-      "https://zandokh.com/image/catalog/products/5232508036/STU_2617.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/b4/62/d0/b462d01c03e5ac4e803eeea550854b09.jpg', 'https://i.pinimg.com/originals/bb/eb/a3/bbeba3902ab4b259335b31585e0369e6.jpg', 'https://i.pinimg.com/originals/12/9a/ae/129aaedd66ec82934f5a621d73153beb.jpg', 'https://i.pinimg.com/videos/thumbnails/originals/9d/a8/36/9da836f5d524c2f70445cc58036e581f.0000000.jpg'],
     price: 22,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -126,13 +96,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/22226022036/AV8A0001.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022036/AV8A9996.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022036/AV8A9997.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022036/AV8A0012.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022036/AV8A9995.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/67/71/6a/67716acba3de44d915dd07fdafc09d08.jpg', 'https://i.pinimg.com/originals/3b/22/fa/3b22fa8c66aed50eed15cbedb35b86c6.jpg', 'https://i.pinimg.com/videos/thumbnails/originals/c2/d0/82/c2d08210e4123de391cfbe107137b9e1.0000000.jpg', 'https://i.pinimg.com/originals/53/08/56/530856f423b703f65b2fcac2a43c99b0.jpg', 'https://i.pinimg.com/originals/dd/e1/f0/dde1f074e295aebd12d6c7778dbc2763.jpg'],
     price: 25,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -144,13 +108,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/cache/catalog/products/2026-05/22226022374/PTAK0258-cr-450x672.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022374/PTAK0254.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022374/PTAK0256.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022374/PTAK0253.jpg"
-
-    ],
+    image: ['https://i.pinimg.com/originals/48/b8/71/48b87163cce0a7ddb26e2842fc4d821d.jpg', 'https://i.pinimg.com/videos/thumbnails/originals/cf/e7/d6/cfe7d6b8779dcdb6a72a5dbea1865f6c.0000000.jpg', 'https://i.pinimg.com/originals/09/f3/24/09f324bf1c60eea0f8a57191c7c890ff.jpg', 'https://i.pinimg.com/originals/05/54/a7/0554a79130cecde72e3751c488eb8e82.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -163,13 +121,7 @@ export const products = [
     item: "Clothing",
     type: "Skirt",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/22226022076/AV8A9993.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022076/AV8A9992.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022076/AV8A9984.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022076/AV8A9985.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022076/AV8A9989.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/bf/c4/06/bfc406915dea963dfe51dbdc322dd739.jpg', 'https://i.pinimg.com/originals/5c/ba/eb/5cbaebaa72a0c3264f2e5f7a3da0534a.jpg', 'https://i.pinimg.com/originals/f4/5f/97/f45f97eff66f07eac8c64a97039c81fd.jpg', 'https://i.pinimg.com/736x/87/fa/c7/87fac7711c37c9b9125f7be676fc9996.jpg', 'https://i.pinimg.com/736x/19/89/bf/1989bf69cb789930e73d4bdc5244d9e5.jpg'],
     price: 32,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -181,12 +133,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: true,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/4122601540/10S26CAP006_Black%20(1).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601540/10S26CAP006_Black%20(6).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601540/10S26CAP006_Black%20(5).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601540/10S26CAP006_Black-(7).jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/5a/84/71/5a84715a17c99765c84a08004fc7d305.jpg', 'https://i.pinimg.com/736x/87/63/80/8763805e2d7dceb7b20e4935c3b19a1f.jpg', 'https://i.pinimg.com/736x/d2/a9/fb/d2a9fb5c48818cda8a165cbdd0fb424a.jpg', 'https://i.pinimg.com/736x/df/21/f5/df21f50e35fc65d9d687ee52561a122b.jpg'],
     price: 32,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -198,11 +145,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-10/2522508899/ZD__0045.jpg",
-      "https://zandokh.com/image/catalog/products/2025-10/2522508899/ZD__0044.jpg",
-      "https://zandokh.com/image/catalog/products/2025-10/2522508899/ZD__0043.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/ce/9b/61/ce9b61175c1ad4a34b0f03e1fbbec484.jpg', 'https://i.pinimg.com/736x/24/23/54/24235430082210c91e7065317633214f.jpg', 'https://i.pinimg.com/736x/35/fc/1c/35fc1c629bc23d970419a8a6db149be1.jpg'],
     price: 32,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -214,12 +157,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: true,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-17/22226011946/STU_1133.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/22226011946/STU_1126.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/22226011946/STU_1127.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/22226011946/STU_1125.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/d7/8d/97/d78d9727f0d8997bd2d9f669a905c991.jpg', 'https://i.pinimg.com/736x/a4/b3/4e/a4b34ef08199614e7878ff9bdfcae083.jpg', 'https://i.pinimg.com/736x/7d/ae/c2/7daec2526727cfa04b9c5407c7ddfd78.jpg', 'https://i.pinimg.com/736x/47/fd/62/47fd620c28794adbfbc3038da51df301.jpg'],
     price: 9,
     discount: 2,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -231,13 +169,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/cache/catalog/products/2026-05/22226022180/STU_6324-cr-450x672.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022180/STU_6316.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022180/STU_6317.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022180/STU_6324.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022180/STU_6315.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/9f/ed/2e/9fed2e207c9aa2867a6dd22e99f2301b.jpg', 'https://i.pinimg.com/736x/e7/01/9a/e7019a127192523d00ff2af8df3a9c91.jpg', 'https://i.pinimg.com/736x/26/23/20/26232035b09fb80136b037485a0c4edd.jpg', 'https://i.pinimg.com/736x/30/27/4a/30274a0ebd0dc350447c332720d2db7b.jpg', 'https://i.pinimg.com/736x/6b/ed/cb/6bedcb8ee8749f2df076a235c7807917.jpg'],
     price: 9,
     discount: 2,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -249,13 +181,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/cache/catalog/products/2026-05/2212602016/AV8A0155-cr-450x672.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2212602016/AV8A0124.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2212602016/AV8A0132.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2212602016/AV8A0125.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2212602016/AV8A0123.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/fa/4a/63/fa4a63699ca4bb1e1b72283b03325a4b.jpg', 'https://i.pinimg.com/736x/2d/d0/8b/2dd08b9eb0e6387d6b617486d68f5528.jpg', 'https://i.pinimg.com/736x/41/c4/0a/41c40a95938c4eb05100b9eeab081bbf.jpg', 'https://i.pinimg.com/736x/82/c9/f8/82c9f808c55ce0c460e7783bc63824fe.jpg', 'https://i.pinimg.com/736x/c5/e1/d4/c5e1d40443e25164962987dc5e05a634.jpg'],
     price: 9,
     discount: 2,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -267,13 +193,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3212602015/AV8A0067.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3212602015/AV8A0059.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3212602015/AV8A0068.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3212602015/AV8A0060.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3212602015/AV8A0058.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/92/35/0f/92350ff37339cdf6f4e948865a575d4c.jpg', 'https://i.pinimg.com/736x/43/d7/78/43d778011af26bc36222950f9a6248fe.jpg', 'https://i.pinimg.com/736x/b4/36/28/b436281bbb68dc94f70e73f11a62ad85.jpg', 'https://i.pinimg.com/736x/99/6c/08/996c086df158580018a036c9a3b05b0f.jpg', 'https://i.pinimg.com/736x/5d/fe/33/5dfe337ef044b61c5a5b83f2899c27e4.jpg'],
     price: 9,
     discount: 2,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -285,13 +205,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/22226022398/AV8A9975.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022398/AV8A9983.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022398/AV8A9972.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022398/AV8A9981.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022398/AV8A9982.jpg"
-    ],
+    image: ['https://i.pinimg.com/474x/91/61/e7/9161e71f9ef68de4cc666279960bc3a7.jpg', 'https://i.pinimg.com/474x/13/b5/68/13b568e91e952bef0707f2439cf1f23b.jpg', 'https://i.pinimg.com/474x/2c/fb/ac/2cfbac03de672f42fd5204b0f8e30422.jpg', 'https://i.pinimg.com/474x/6d/9d/bb/6d9dbb8314a55a9ab041454f96415772.jpg', 'https://i.pinimg.com/474x/2a/77/a4/2a77a4eb22f8b661a2b3c7b739189a8d.jpg'],
     price: 9,
     discount: 2,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -303,13 +217,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/22226022313/AV8A9950.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022313/AV8A0051.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022313/AV8A9957.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022313/AV8A9954.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022313/AV8A0050.jpg"
-    ],
+    image: ['https://i.pinimg.com/474x/0d/5e/62/0d5e62505e5858eabc220808be85aebb.jpg', 'https://i.pinimg.com/236x/30/f2/ed/30f2ed14a3fff87a0dc935803d682e5f.jpg', 'https://i.pinimg.com/236x/ff/90/a6/ff90a628c2986d30baf5897c8941b952.jpg', 'https://i.pinimg.com/236x/28/ef/85/28ef85d1ea7c882e73a8b9d7b1a38480.jpg', 'https://i.pinimg.com/236x/e4/2d/4c/e42d4cdfcf8c75bd7e7ffe4b49f90f44.jpg'],
     price: 9,
     discount: 2,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -321,13 +229,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226012601/PTAK0218.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012601/PTAK0213.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012601/PTAK0221.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012601/PTAK0214.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012601/PTAK0212.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/24/c1/6a/24c16a7e7aae3123044461d18282caed.jpg', 'https://i.pinimg.com/236x/b2/a2/af/b2a2af156c6da93bb3790c3883635ac2.jpg', 'https://i.pinimg.com/236x/21/35/ac/2135acf0edd2d917d5a1068be3dcddf4.jpg', 'https://i.pinimg.com/236x/8a/e2/47/8ae2475d109ae48355eb83d170c33abb.jpg', 'https://i.pinimg.com/236x/d0/02/9c/d0029cb97914c469de131639aba55fa7.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -339,14 +241,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226022705/STU_6930.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022705/STU_6929.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022705/STU_6937.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022705/STU_6933.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022705/STU_6927.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022705/STU_6928.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/0e/98/d5/0e98d59eeb3007061f09ddeb9d266040.jpg', 'https://i.pinimg.com/236x/ab/59/d4/ab59d4acfdd309111aa2850b45115f6c.jpg', 'https://i.pinimg.com/236x/8f/6b/b4/8f6bb4d1d74102c6e94fedc7c1bb1e8b.jpg', 'https://i.pinimg.com/236x/48/b6/30/48b630f4ce907ee13aee267f7f8ca273.jpg', 'https://i.pinimg.com/236x/c4/6f/13/c46f130936b395cb99f5fa28dd810d52.jpg', 'https://i.pinimg.com/236x/1f/c6/ba/1fc6bae257d3036ef36b5f0464e3b985.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -358,12 +253,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12225122518/STU_7043%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12225122518/STU_7042.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12225122518/STU_7045.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12225122518/STU_7041.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/e2/5a/fb/e25afb384bdedcfc926a31821490d975.jpg', 'https://i.pinimg.com/236x/8c/68/74/8c68748e7c1f5758f2b6829d70b91e6e.jpg', 'https://i.pinimg.com/236x/d4/3a/97/d43a973ef585d3f9f15d4a18c0c89a93.jpg', 'https://i.pinimg.com/236x/63/02/e7/6302e7e927b5ca83545f631ecc3fb870.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -375,12 +265,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226022682/STU_5860.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022682/STU_5859.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022682/STU_5865.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022682/STU_5858.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/cf/78/48/cf78488c1802bcffecbc9600d7ed10fe.jpg', 'https://i.pinimg.com/236x/bc/24/50/bc2450aa51c22c08848e6b7aeed232d4.jpg', 'https://i.pinimg.com/236x/e8/61/0e/e8610e110c249eb6b3e26465e7dbf082.jpg', 'https://i.pinimg.com/236x/a0/01/e0/a001e0b3180d2b7d697e6d28ecd8f81b.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -392,12 +277,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/22226022432/STU_3988.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022432/STU_3985.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022432/STU_3991.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022432/STU_3984.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/c8/d7/d7/c8d7d7d763049b23b672363c1bed6f35.jpg', 'https://i.pinimg.com/236x/f6/78/41/f6784178fcadb6affc9f9f34acaae202.jpg', 'https://i.pinimg.com/236x/58/75/d8/5875d862e56dea081d9dde775efca5e9.jpg', 'https://i.pinimg.com/236x/3a/58/f9/3a58f9f973f0e0e43411fb33b0df16bb.jpg'],
     price: 12,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -409,12 +289,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/12226012608/STU_3285.jpg",
-      "https://zandokh.com/image/catalog/products/12226012608/STU_3292.jpg",
-      "https://zandokh.com/image/catalog/products/12226012608/STU_3282.jpg",
-      "https://zandokh.com/image/catalog/products/12226012608/STU_3281.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/3b/49/a0/3b49a03417f41ca3d7416b98fd0be02e.jpg', 'https://i.pinimg.com/236x/65/3e/a3/653ea373ef9d1738540bed27adf24d1a.jpg', 'https://i.pinimg.com/236x/79/80/93/798093adc219e9905709b6e032968bc2.jpg', 'https://i.pinimg.com/236x/49/d1/9e/49d19ec2c47a08e439419b18cb41ae79.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -426,13 +301,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/22225121893/STU_3780.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22225121893/STU_3774.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22225121893/STU_3782.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22225121893/STU_3776.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22225121893/STU_3773.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/43/64/89/436489dcb9c3f9f8c9bb8587e2afb746.jpg', 'https://i.pinimg.com/236x/65/b3/e8/65b3e8525230e955e61a6db5f90afab0.jpg', 'https://i.pinimg.com/236x/c1/86/f5/c186f5aa60706612a058725dce4a2569.jpg', 'https://i.pinimg.com/236x/4e/af/55/4eaf5505a2a5a123f332499d7ac566a6.jpg', 'https://i.pinimg.com/236x/ee/c2/49/eec249a4cd1a60850e817f2649503a41.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -444,14 +313,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226022711/STU_3273.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022711/STU_3278.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022711/STU_3268.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022711/STU_3277.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022711/STU_3267.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022711/STU_3279.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/64/80/35/64803512394a316ba6b9fa470c201690.jpg', 'https://i.pinimg.com/236x/3d/d4/d2/3dd4d29fa42a7878142c46c1934c38fd.jpg', 'https://i.pinimg.com/236x/51/55/51/515551d439b52b0ff8c341bafb59b44f.jpg', 'https://i.pinimg.com/236x/00/94/b2/0094b2038159889640d208eff3d3d70c.jpg', 'https://i.pinimg.com/236x/93/29/32/9329326c581ae3bcb02c78193fd05a27.jpg', 'https://i.pinimg.com/236x/23/aa/0f/23aa0fa59023077b284886023469a0fd.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -463,14 +325,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226022704/STU_3802.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022704/STU_3801.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022704/STU_3810.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022704/STU_3807.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022704/STU_3800.jpg"
-
-    ],
+    image: ['https://i.pinimg.com/236x/08/00/30/080030c36eed1b4a7aa1793992d8533a.jpg', 'https://i.pinimg.com/236x/ce/ba/97/ceba978138eb14542de4eb2a3f8d9224.jpg', 'https://i.pinimg.com/236x/cb/58/46/cb58468bee76a71a11d1cd58b1e26cfd.jpg', 'https://i.pinimg.com/236x/68/d6/9b/68d69bcbb8eec22daa7dad8bb5c6e88d.jpg', 'https://i.pinimg.com/236x/1b/24/79/1b24798f33666931733af919c5edcc2a.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -482,13 +337,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226022703/STU_3454.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022703/STU_3452.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022703/STU_3457.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022703/STU_3459.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022703/STU_3451.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/9a/5c/6a/9a5c6a77159b3ad51ebd9de5368f4d1a.jpg', 'https://i.pinimg.com/236x/46/4d/b6/464db63af8acd9ccd0f16a9db63e61cc.jpg', 'https://i.pinimg.com/236x/50/d4/f4/50d4f44c106d5c24f87179c9ae9381b9.jpg', 'https://i.pinimg.com/236x/12/b2/98/12b298b0598fc4088d4ef5e5c162b644.jpg', 'https://i.pinimg.com/236x/18/07/d4/1807d4d117372afc14d0a5904c0d57ca.jpg'],
     price: 14,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -500,13 +349,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/22226022454/STU_2323.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022454/STU_2320.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022454/STU_2334.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022454/STU_2321.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/22226022454/STU_2319.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ff/ef/a2/ffefa29ea5b4c24f709be06499abfd6a.jpg', 'https://i.pinimg.com/236x/4c/ac/f6/4cacf653a08c024e7b7cd3216aa07e64.jpg', 'https://i.pinimg.com/236x/08/43/8e/08438e8967119d11d851d3802ae146c0.jpg', 'https://i.pinimg.com/236x/27/22/ee/2722ee463c24d4d4a4796c289bf5ea13.jpg', 'https://i.pinimg.com/236x/26/21/b0/2621b0abe2864154ecf15ed5a9bb73e4.jpg'],
     price: 20,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -521,13 +364,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: true,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-17/21226021712/PTAK0200.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/21226021712/PTAK0196.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/21226021712/PTAK0204.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/21226021712/PTAK0198.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/21226021712/PTAK0195.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/d9/db/d0/d9dbd0fbc8193aba87e289d70916e15e.jpg', 'https://i.pinimg.com/236x/85/14/e6/8514e6fff30d74ed803cd0c7b7dd8fe7.jpg', 'https://i.pinimg.com/236x/c1/e7/42/c1e7426793c491bccbf967a259e58294.jpg', 'https://i.pinimg.com/236x/95/b9/fd/95b9fd9242ca6a2bc933b98545c22a43.jpg', 'https://i.pinimg.com/236x/e2/01/a3/e201a3b3b56624758e7e587e339cef07.jpg'],
     price: 12,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -539,13 +376,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/2112603877/PTAK0054.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112603877/PTAK0052.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112603877/PTAK0056.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112603877/PTAK0063.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112603877/PTAK0051.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/40/1b/1e/401b1eea93779504ccbd85b0051a2b22.jpg', 'https://i.pinimg.com/236x/65/87/59/6587595f234466f5a25af5b0ac077404.jpg', 'https://i.pinimg.com/236x/2b/73/94/2b73940ed9dfdd562ae9be2d58192034.jpg', 'https://i.pinimg.com/236x/7b/f7/74/7bf774cbbb35aaefb88bca74cd2244b0.jpg', 'https://i.pinimg.com/236x/25/15/12/25151267b6f91109d4d4efb39631f0ce.jpg'],
     price: 18,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -560,14 +391,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: true,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5582507133/H7_01206.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5582507133/H7_01209.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5582507133/H7_01207.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5582507133/H7_01210.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5582507133/H7_01211.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5582507133/H7_01212.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/16/42/da/1642da8f049520dd22b32bf5f1c57477.jpg', 'https://i.pinimg.com/236x/ec/45/7d/ec457d7531dcbd197d468f4b46cde6b8.jpg', 'https://i.pinimg.com/236x/25/ef/0c/25ef0c43d15ddc2ce0a9f7a06995fac4.jpg', 'https://i.pinimg.com/236x/ce/e5/28/cee528583fcfca4791f8d73d4640b8c4.jpg', 'https://i.pinimg.com/236x/e9/19/71/e91971560ab10ea335853346c7e4f390.jpg', 'https://i.pinimg.com/236x/39/6d/5e/396d5e436abaacfa3d326be617f3b459.jpg'],
     price: 18,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -579,11 +403,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-09/5582503045/ZD__0877.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503045/ZD__0880.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503045/ZD__0879.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/0c/02/aa/0c02aab186645791ae1cf8b2cdbbef85.jpg', 'https://i.pinimg.com/236x/6f/3b/9e/6f3b9e4998055336014b20b8f9d6d9ab.jpg', 'https://i.pinimg.com/236x/e7/69/48/e76948b1fb070c9e1b6018d47bcffcde.jpg'],
     price: 8,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -596,12 +416,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/4522605005/10F25BAGU001%20-%20BLUE%20(1).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4522605005/10F25BAGU001%20-%20BLUE%20(2).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4522605005/10F25BAGU001%20-%20BLUE%20(3).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4522605005/10F25BAGU001%20-%20BLUE%20(4).jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/96/51/58/96515809a96491953d2e4a31a4c1160e.jpg', 'https://i.pinimg.com/236x/d8/37/35/d83735c9d762bd6b9c43309212f4b877.jpg', 'https://i.pinimg.com/236x/6a/70/36/6a703674ba338346641d374807f8afc4.jpg', 'https://i.pinimg.com/236x/96/d8/34/96d834a192a3e6d92bc31cf68089c3f8.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -616,11 +431,7 @@ export const products = [
     item: "Shoes",
     type: "Sandals",
     isNewIn: true,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-02/4122508353/10S26SAN001%20-%20INDIGO%20(2).jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/4122508353/10S26SAN001%20-%20INDIGO%20(1).jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/4122508353/10S26SAN001%20-%20INDIGO%20(3).jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/c8/0a/40/c80a40bc2ae964113f4dcb1f50db9d14.jpg', 'https://i.pinimg.com/236x/1e/0f/46/1e0f46916219463ac27215457bd87fbb.jpg', 'https://i.pinimg.com/236x/41/01/87/4101870f0abb76d7315d195a418a69f2.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -632,13 +443,7 @@ export const products = [
     item: "Shoes",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-01/5252508061/TAKK5305.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5252508061/TAKK5308.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5252508061/TAKK5306.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5252508061/TAKK5307.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5252508061/TAKK5306%20-%20Copy.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/95/ae/52/95ae52f1f1e6d30acaa032faed5b298c.jpg', 'https://i.pinimg.com/236x/bc/5a/72/bc5a72d8c7fa07e7fffea65b85e0ca19.jpg', 'https://i.pinimg.com/236x/6e/2a/79/6e2a79e9e8769297ca7f3d8db5627f8a.jpg', 'https://i.pinimg.com/236x/42/2f/29/422f292b9eee76af76e798f694672a75.jpg', 'https://i.pinimg.com/236x/13/fb/6d/13fb6dde7ca2c03bfb3a2028165f432d.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -650,13 +455,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/21226021892/PTAK0182.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021892/PTAK0180.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021892/PTAK0188.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021892/PTAK0181.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021892/PTAK0179.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/94/ad/27/94ad273b5d11222e4d506a2d2df0e711.jpg', 'https://i.pinimg.com/236x/50/f0/84/50f0843e35424970dba40675c09d1f9f.jpg', 'https://i.pinimg.com/236x/df/ca/e6/dfcae6f08af86aa95cbcfa644a7fa4c4.jpg', 'https://i.pinimg.com/236x/84/6a/b2/846ab207357fcb904b023af490eadd47.jpg', 'https://i.pinimg.com/236x/75/c8/d1/75c8d1a0c11c4e940a140b31d5548c93.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -668,14 +467,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/11226011746/STU_2641.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226011746/STU_2638.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226011746/STU_2639.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226011746/STU_2650.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226011746/STU_2637.jpg"
-
-    ],
+    image: ['https://i.pinimg.com/236x/10/e6/d4/10e6d452deaaff89f7c2f2012212617e.jpg', 'https://i.pinimg.com/236x/84/c9/3a/84c93a2b08e1ec17ff52262cb1b007b5.jpg', 'https://i.pinimg.com/236x/b9/bb/2a/b9bb2a5b9cf04958a24eb9f45e608449.jpg', 'https://i.pinimg.com/236x/7b/bd/44/7bbd44a73451fbb34cd26c2a619d4dfa.jpg', 'https://i.pinimg.com/236x/30/db/98/30db982aa29f79dfe8ebac0a59324de4.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -687,13 +479,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-17/2112602860/PTAK0099.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/2112602860/PTAK0094.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/2112602860/PTAK0095.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/2112602860/PTAK0103.jpg",
-      "https://zandokh.com/image/catalog/products/2026-17/2112602860/PTAK0093.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/25/94/b5/2594b5618cbb1b7568f8389d3bbb24ca.jpg', 'https://i.pinimg.com/236x/05/4b/b0/054bb091bee3edabe14f5f4a33d46288.jpg', 'https://i.pinimg.com/236x/29/e0/a6/29e0a620420755c2800a67cf0576e42c.jpg', 'https://i.pinimg.com/236x/e3/e1/ae/e3e1ae1d45b4b2468f634a7813291d91.jpg', 'https://i.pinimg.com/236x/f6/a9/fd/f6a9fd80c82d0d411dbcbba8126c61b6.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -705,13 +491,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/2112602876/PTAK5691.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/2112602876/PTAK5687.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/2112602876/PTAK5701.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/2112602876/PTAK5688.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/2112602876/PTAK5686.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/58/fd/be/58fdbe1b19e6104d5b4ed4f93302887d.jpg', 'https://i.pinimg.com/236x/00/e7/d6/00e7d65efb5b202f73bae9d2ac50e98f.jpg', 'https://i.pinimg.com/236x/9c/ec/38/9cec38b897fbbe1e7bba1c65d8e23fff.jpg', 'https://i.pinimg.com/236x/77/65/76/776576a8b9714c2c2d9fb8e279d2016d.jpg', 'https://i.pinimg.com/236x/f0/8f/ae/f08fae4e90d6b7f8d1f00a38b87a493a.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -723,12 +503,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/21226021840/AV8A9967.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021840/AV8A9964.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021840/AV8A9973.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021840/AV8A9963.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/73/8f/97/738f97b916efecf2280381a2ed3faa38.jpg', 'https://i.pinimg.com/236x/fc/b7/ea/fcb7ea7c254a264f4dce9c2e7f850b64.jpg', 'https://i.pinimg.com/236x/f2/26/c1/f226c1d71265ade61e339b45eb90e357.jpg', 'https://i.pinimg.com/236x/cd/d3/47/cdd3474c494cc0ae0c60535254a90714.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -740,13 +515,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/21226011594/AV8A9956.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226011594/AV8A9952.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226011594/AV8A9961.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226011594/AV8A9953.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226011594/AV8A9951.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/f6/49/c3/f649c31c6828f05bd5e33ecc86c0920e.jpg', 'https://i.pinimg.com/236x/88/d4/e4/88d4e49a66357e45d2b8409b3961c9d7.jpg', 'https://i.pinimg.com/236x/bb/3b/43/bb3b439c2c020dd777e9eb40be0398bb.jpg', 'https://i.pinimg.com/236x/fc/39/81/fc39817f77cb2b8109c1afe5bf93f22b.jpg', 'https://i.pinimg.com/236x/ec/f5/55/ecf5555c8715bb680cfe106f74ccac7f.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -758,13 +527,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3122602007/AV8A0117.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3122602007/AV8A0115.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3122602007/AV8A0130.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3122602007/AV8A0124.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3122602007/AV8A0114.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/0d/c9/b4/0dc9b43266e0d9de76242ab42b3c178c.jpg', 'https://i.pinimg.com/236x/6d/d1/e3/6dd1e3eec37b912b4430fcb245c72d5a.jpg', 'https://i.pinimg.com/236x/56/fa/08/56fa083db2782c74d2b18656c534fa16.jpg', 'https://i.pinimg.com/236x/16/d9/1c/16d91c58f37c3d7cf36cea767557c53a.jpg', 'https://i.pinimg.com/236x/21/c1/f8/21c1f8ed9182bfc13d354df28c7751f6.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -776,13 +539,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3122512003/AV8A0153.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3122512003/AV8A0150.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3122512003/AV8A0157.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3122512003/AV8A0151.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3122512003/AV8A0149.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/12/8f/75/128f751e9bd7a6c90a998f0a43ae1fe6.jpg', 'https://i.pinimg.com/236x/b5/6f/bf/b56fbfe23189623b5dd12076d8f995f4.jpg', 'https://i.pinimg.com/236x/59/50/90/5950903a78b367a4e8c79e144400e930.jpg', 'https://i.pinimg.com/236x/c2/29/bb/c229bb96f795ea5627b96bde8ee41452.jpg', 'https://i.pinimg.com/236x/21/f5/1e/21f51e631d0a06eaa4404e661831b4e8.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -793,13 +550,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3112602038/ZD_L0021.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602038/ZD_L0017.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602038/ZD_L0027.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602038/ZD_L0018.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602038/ZD_L0016.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/b7/31/ad/b731ada01bf351ecac6f6ecc54f8192c.jpg', 'https://i.pinimg.com/236x/ed/1f/1a/ed1f1a588337c9eeb967b09778c926c8.jpg', 'https://i.pinimg.com/236x/c6/30/60/c63060e491ad3a96a9cac2497e0c0bf6.jpg', 'https://i.pinimg.com/236x/eb/c7/ba/ebc7bad18ed1b21e2fa2eed0ba4a15b1.jpg', 'https://i.pinimg.com/236x/9b/bd/87/9bbd87c6d8a283ec1cbd0649fa630da0.jpg'],
     price: 18,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -811,14 +562,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3112602030/AV8A0076.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602030/AV8A0069.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602030/AV8A0081.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602030/AV8A0070.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602030/AV8A0068.jpg"
-
-    ],
+    image: ['https://i.pinimg.com/236x/c7/11/f2/c711f240c484e75a8c59f7160dfd535a.jpg', 'https://i.pinimg.com/236x/ff/27/84/ff2784decf2d94709b65d944f243d97e.jpg', 'https://i.pinimg.com/236x/bb/e2/45/bbe2457b932850d7c22b88363b115857.jpg', 'https://i.pinimg.com/236x/d7/57/34/d75734b2711e3a9b973225ed9cfabc23.jpg', 'https://i.pinimg.com/236x/ca/8e/c3/ca8ec3d2f0f7a67a5f558b455e1eba5b.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -830,13 +574,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3112602043/STU_9189.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602043/STU_9185.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602043/STU_9199.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602043/STU_9190.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3112602043/STU_9184.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/83/4b/05/834b056d6932ef883792f62b851bf15b.jpg', 'https://i.pinimg.com/236x/b7/07/cd/b707cdddac42a2d500eb32da539936a2.jpg', 'https://i.pinimg.com/236x/e5/d4/27/e5d427c5d427c753cf5a724342306e00.jpg', 'https://i.pinimg.com/236x/ac/02/d8/ac02d866756d2197d3bdf2e7e1a05fbf.jpg', 'https://i.pinimg.com/236x/18/c5/e8/18c5e8c169b0eb811a5bc0e70bd084d5.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -848,13 +586,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/4122601532/10S26TSS035_Red-(2).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601532/10S26TSS035_Red.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601532/10S26TSS035_Navy-(2).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601532/10S26TSS035_Navy-(3).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601532/10S26TSS035_Navy-(4).jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/93/af/8a/93af8aab0747367b03c65a731dc063f7.jpg', 'https://i.pinimg.com/236x/0d/3a/3f/0d3a3f8fea2665bf65e72a22a7129e35.jpg', 'https://i.pinimg.com/236x/06/b4/d7/06b4d7a654bead0aff4c1e0ca196a595.jpg', 'https://i.pinimg.com/236x/d6/ec/32/d6ec320ae2be26abeb2f864b9573b7e6.jpg', 'https://i.pinimg.com/236x/3e/a4/30/3ea430b58bee1d2a912985c2e6f42c4a.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -866,13 +598,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/21226021789/STU_5129.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021789/STU_5124.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021789/STU_5134.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021789/STU_5125.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/21226021789/STU_5123.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ce/aa/2d/ceaa2de1bef9f53691a04a6f79730629.jpg', 'https://i.pinimg.com/236x/4e/c1/6f/4ec16fc7f5613a2e4dfcd4dad98f985c.jpg', 'https://i.pinimg.com/236x/ba/4d/b7/ba4db7863b602423be0c41e1f2a95f95.jpg', 'https://i.pinimg.com/236x/fd/87/db/fd87dbf8d9f3102a36f48a4af69d2f88.jpg', 'https://i.pinimg.com/236x/79/a6/77/79a67726663a44b2a9d51b3a5e79041b.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -884,13 +610,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/2112602899/STU_5809.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112602899/STU_5806.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112602899/STU_5813.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112602899/STU_5807.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112602899/STU_5805.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/22/54/c1/2254c132cf5591122894e8c6c8771b8d.jpg', 'https://i.pinimg.com/236x/88/3d/0c/883d0c354ce74d8ae39ce1fa66cde7d2.jpg', 'https://i.pinimg.com/236x/c1/22/12/c122123dde47cef71506f3883ee218f6.jpg', 'https://i.pinimg.com/236x/16/cf/1e/16cf1ebb9d7faaf9b8d91d36ce203300.jpg', 'https://i.pinimg.com/236x/e6/69/42/e669426e17c601ab2494439f6d6670bc.jpg'],
     price: 13,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -902,13 +622,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/11226031751/STU_4865.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226031751/STU_4857.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226031751/STU_4868.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226031751/STU_4858.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226031751/STU_4856.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/b5/03/c2/b503c25b310867e6536b25d0b451684d.jpg', 'https://i.pinimg.com/236x/d6/92/1d/d6921d21bef4306318f2239dac5e7095.jpg', 'https://i.pinimg.com/236x/5b/b5/43/5bb5430436ff4a195624eb32bc05f01e.jpg', 'https://i.pinimg.com/236x/42/c4/32/42c4320a89f23f70551750f4ec26902c.jpg', 'https://i.pinimg.com/236x/24/b2/ea/24b2ea9a2178d66d6a0b4f86bbb74cfa.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -920,13 +634,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/11226011713/STU_4890.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226011713/STU_4888.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226011713/STU_4895.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226011713/STU_4889.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/11226011713/STU_4887.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/26/87/eb/2687eb1237fe29cbaf9d4d545a5b573a.jpg', 'https://i.pinimg.com/236x/98/3b/3c/983b3c1f0531689e5ff0596c4da8e351.jpg', 'https://i.pinimg.com/236x/f8/7a/24/f87a249fa295801576f71dd41fd0a8e7.jpg', 'https://i.pinimg.com/236x/5d/ab/77/5dab77442e5ebea07182aa7c7d29216d.jpg', 'https://i.pinimg.com/236x/b7/8a/a0/b78aa0939e091c8a9bc55d3c9ab02337.jpg'],
     price: 12,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -938,13 +646,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/2112603899/STU_5326.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112603899/STU_5321.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112603899/STU_5331.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112603899/STU_5323.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112603899/STU_5322.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/82/0d/86/820d860d09a25b6181f5cd9d2c3e7b7f.jpg', 'https://i.pinimg.com/236x/cc/6a/c7/cc6ac76fa1e1c5a430432603fa8e1677.jpg', 'https://i.pinimg.com/236x/6e/f3/52/6ef352802a7c6bee0716dbb34c2731cd.jpg', 'https://i.pinimg.com/236x/1b/e1/c9/1be1c96192ab49001608a35c1c6beed4.jpg', 'https://i.pinimg.com/236x/40/51/9e/40519e1895b898f9fe1010b24fedef2d.jpg'],
     price: 11,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -956,13 +658,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/2112602894/STU_5460.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112602894/STU_5455.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112602894/STU_5467.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112602894/STU_5456.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/2112602894/STU_5454.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/03/b1/ee/03b1ee4f44521a0f43fde0ba4310a256.jpg', 'https://i.pinimg.com/236x/a8/e7/6e/a8e76e3a4fb7b768d02c70e63b1db322.jpg', 'https://i.pinimg.com/236x/32/49/64/324964327718a3fc5487ae64b29a8f66.jpg', 'https://i.pinimg.com/236x/e7/2b/14/e72b14bf042bf6e5ad23039528a805c9.jpg', 'https://i.pinimg.com/236x/6b/3c/94/6b3c949946d3cea47930979033eda315.jpg'],
     price: 13,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -974,13 +670,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/51272511002/STU_4708.jpg",
-      "https://zandokh.com/image/catalog/products/51272511002/STU_4691.jpg",
-      "https://zandokh.com/image/catalog/products/51272511002/STU_4713.jpg",
-      "https://zandokh.com/image/catalog/products/51272511002/STU_4692.jpg",
-      "https://zandokh.com/image/catalog/products/51272511002/STU_4690.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/20/c4/97/20c497eb3e38a498bbd0269a92e815ac.jpg', 'https://i.pinimg.com/236x/dd/82/c4/dd82c426f26ef3a001b6c3e6dcdaa93a.jpg', 'https://i.pinimg.com/236x/a8/66/97/a86697e6e0a63603bcded98c689dc333.jpg', 'https://i.pinimg.com/236x/88/ff/21/88ff213bbf10b229ff3c0515178a019a.jpg', 'https://i.pinimg.com/236x/26/99/46/26994683bd27184696df40435c4ab51d.jpg'],
     price: 20,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -992,13 +682,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/51262511001/STU_4669.jpg",
-      "https://zandokh.com/image/catalog/products/51262511001/STU_4671.jpg",
-      "https://zandokh.com/image/catalog/products/51262511001/STU_4663.jpg",
-      "https://zandokh.com/image/catalog/products/51262511001/STU_4666.jpg",
-      "https://zandokh.com/image/catalog/products/51262511001/STU_4672.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/fc/d4/33/fcd433b815170329a95f574c41d4edd8.jpg', 'https://i.pinimg.com/236x/8a/71/36/8a71366832b672a1f50fbb9e7c61e64a.jpg', 'https://i.pinimg.com/236x/d2/03/a8/d203a8aabb198ec42410f6839832f2b3.jpg', 'https://i.pinimg.com/236x/93/c4/70/93c4703c6228a51b2253b48047eaeace.jpg', 'https://i.pinimg.com/236x/f1/cc/5d/f1cc5dab6e793b16118987fcf9aa7388.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1013,12 +697,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/4122601541/10S26CAP004_Navy%20%20(1).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601541/10S26CAP004_Navy%20%20(2).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601541/10S26CAP004_Navy%20%20(3).jpg"
-
-    ],
+    image: ['https://i.pinimg.com/236x/93/47/7c/93477c5c32e021a8c514f2f7da9230b1.jpg', 'https://i.pinimg.com/236x/14/6e/51/146e51451e1d84b7340b1741b7cbecc8.jpg', 'https://i.pinimg.com/236x/6e/64/bd/6e64bda30f748881314184d4a6638b0f.jpg'],
     price: 7,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1030,14 +709,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/4122601542/120S26CAP002_red%20%20%20(2)_may-tinh-ban.local_Apr-03-091844-2026_CaseConflict.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601542/120S26CAP002_Red%20%20%20(6).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601542/120S26CAP002_Red%20%20%20(5).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601542/120S26CAP002_Red%20%20%20(8).jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/4122601542/120S26CAP002_Red%20%20%20(7).jpg"
-
-    ],
+    image: ['https://i.pinimg.com/236x/85/27/12/852712c87cdfe20b589e97c004ed0c99.jpg', 'https://i.pinimg.com/236x/cd/ca/04/cdca041b316d1652b8e3794bab9e4284.jpg', 'https://i.pinimg.com/236x/ce/17/a5/ce17a5c67f8d3c0e6dfc602420f131fb.jpg', 'https://i.pinimg.com/236x/0c/2b/06/0c2b0654681baa0a5d345f83e0e5ec23.jpg', 'https://i.pinimg.com/236x/97/74/97/977497edf1aaacd4a66d5de4d0115c60.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1049,12 +721,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/10512603011/Cap%20(2).jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603011/Cap%20(4).jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603011/Cap%20(8).jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603011/Cap%20(9).jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/74/39/ac/7439ac955a36f150c1b2fdb58d61d160.jpg', 'https://i.pinimg.com/236x/7e/98/b4/7e98b4c53a84d5c2d8d952c1433cc755.jpg', 'https://i.pinimg.com/236x/e5/74/be/e574be185b6921db05c8cde85f567fa3.jpg', 'https://i.pinimg.com/236x/60/de/98/60de982ddbe2d4f998f2ad48838b28a7.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1066,12 +733,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/10512603006/image_2026-04-09_15-02-55.png",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603006/image_2026-04-09_15-03-21.png",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603006/image_2026-04-09_15-03-15.png",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603006/image_2026-04-09_15-03-00.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/01/78/57/01785751c933316bc1cb295a277f7ab8.jpg', 'https://i.pinimg.com/236x/56/4b/91/564b9126da5b8057f92c8d91ba05ff09.jpg', 'https://i.pinimg.com/236x/25/e7/3f/25e73fd8c1406d8244a3bef3983aa099.jpg', 'https://i.pinimg.com/236x/04/9b/d0/049bd042d2412fd537743437979097b0.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1083,12 +745,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/10512603004/image_2026-04-09_14-56-17.png",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603004/image_2026-04-09_14-56-30.png",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603004/image_2026-04-09_14-56-26.png",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603004/image_2026-04-09_14-56-21.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/23/2e/ea/232eeaf2b8f3d56a2ea0e2624b51710a.jpg', 'https://i.pinimg.com/236x/36/03/5d/36035d67a2c262842010ea6e5a4512d2.jpg', 'https://i.pinimg.com/236x/c4/53/ba/c453bac435d93f72330ec08f102b23e6.jpg', 'https://i.pinimg.com/236x/1b/15/10/1b15109936865e725ae264035174b71e.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1100,12 +757,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/4122510467/10S26CAP011_BEIGE%20(2).jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/4122510467/10S26CAP011_BEIGE%20(4).jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/4122510467/10S26CAP011_BEIGE%20(3).jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/4122510467/10S26CAP011_BEIGE%20(1).jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/00/70/31/0070316bb971ea916c677be84792cef5.jpg', 'https://i.pinimg.com/236x/b5/3b/47/b53b47969efe38d55bd06130eb561c45.jpg', 'https://i.pinimg.com/originals/7c/cb/96/7ccb96d0fc39cbb0dcd7f90383faf7eb.jpg', 'https://i.pinimg.com/originals/ee/c6/41/eec64132b3fe3c0c24cfc7a7a2aa0778.jpg'],
     price: 6,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1117,13 +769,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/10512603001/image_2026-03-18_19-08-07.png",
-      "https://zandokh.com/image/catalog/products/2026-03/10512603001/image_2026-03-18_19-08-11.png",
-      "https://zandokh.com/image/catalog/products/2026-03/10512603001/image_2026-03-18_19-08-16.png",
-      "https://zandokh.com/image/catalog/products/2026-03/10512603001/image_2026-03-18_19-08-20.png",
-      "https://zandokh.com/image/catalog/products/2026-03/10512603001/image_2026-03-18_19-08-24.png"
-    ],
+    image: ['https://i.pinimg.com/originals/75/d5/34/75d534ff37b16370e5bb520116d525c4.jpg', 'https://i.pinimg.com/originals/28/06/8c/28068c9069483c28d98091ea2fe83fb2.jpg', 'https://i.pinimg.com/originals/6c/05/e4/6c05e4a82369f2be83a289ada2bd04e2.jpg', 'https://i.pinimg.com/originals/87/de/56/87de566fa8b679e7eb5c22f7b35020c6.jpg', 'https://i.pinimg.com/originals/42/49/0c/42490c88aec3cdb4f241aa8772717216.jpg'],
     price: 12,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1135,11 +781,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/10512601002/image_2026-03-15_18-35-09.png",
-      "https://zandokh.com/image/catalog/products/2026-03/10512601002/image_2026-03-15_18-35-21.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/10512601002/image_2026-03-15_18-35-13.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/5b/ad/83/5bad837a5920d3df82363e8d3cd0ff0a.jpg', 'https://i.pinimg.com/originals/15/42/28/154228dbc07c15550d6b17b50b044da5.jpg', 'https://i.pinimg.com/originals/0f/9d/06/0f9d0686239e425ae23b2a848a66e5c0.png'],
     price: 7,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1151,12 +793,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/10512510035/cap%20(4).png",
-      "https://zandokh.com/image/catalog/products/2026-03/10512510035/cap%20(1).png",
-      "https://zandokh.com/image/catalog/products/2026-03/10512510035/cap%20(5).png",
-      "https://zandokh.com/image/catalog/products/2026-03/10512510035/cap%20(2).jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/cc/76/97/cc769799797858d18701b78252bf16c0.jpg', 'https://i.pinimg.com/originals/c5/d6/58/c5d6581e290480256146ff8c1d3e2a0c.jpg', 'https://i.pinimg.com/originals/52/f4/69/52f4691966d74a6ee330c37b3bf864cd.png', 'https://i.pinimg.com/originals/ac/cf/df/accfdf980066f2ab126aecaf1d1d7425.png'],
     price: 14,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1168,12 +805,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/4122512450/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/4122512450/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/4122512450/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/4122512450/4.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/2f/64/42/2f6442b990857bfc7bc1a29fc52b90cf.png', 'https://i.pinimg.com/originals/02/d4/48/02d44894b99105d80386ffe859e266e3.jpg', 'https://i.pinimg.com/originals/88/22/5a/88225ad2e353877c26c7b111e26d118d.jpg', 'https://i.pinimg.com/originals/fe/2d/9c/fe2d9c9db115c33517ef3e53720c68f0.png'],
     price: 7,
     discount: 30,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1185,12 +817,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-02/4122510468/10S26CAP012%20-%20BLACK%20(2).jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/4122510468/10S26CAP012%20-%20BLACK%20(1).jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/4122510468/10S26CAP012%20-%20BLACK%20(3).jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/4122510468/10S26CAP012%20-%20BLACK%20(4).jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/2a/d1/db/2ad1db03603b3cd80633811f6f062298.jpg', 'https://i.pinimg.com/originals/bc/7a/53/bc7a53afa034d847676421600c037f60.png', 'https://i.pinimg.com/originals/ae/3e/f7/ae3ef75d5eda6d4e3f251484eac36730.png', 'https://i.pinimg.com/originals/b4/62/d0/b462d01c03e5ac4e803eeea550854b09.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1202,12 +829,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-02/5582507130/TAKK6762.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507130/TAKK6765.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507130/TAKK6763.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507130/TAKK6764.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/bb/eb/a3/bbeba3902ab4b259335b31585e0369e6.jpg', 'https://i.pinimg.com/originals/12/9a/ae/129aaedd66ec82934f5a621d73153beb.jpg', 'https://i.pinimg.com/videos/thumbnails/originals/9d/a8/36/9da836f5d524c2f70445cc58036e581f.0000000.jpg', 'https://i.pinimg.com/originals/67/71/6a/67716acba3de44d915dd07fdafc09d08.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1219,12 +841,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/Tag%20Space/10512601005/1.jpg",
-      "https://zandokh.com/image/catalog/products/Tag%20Space/10512601005/2.jpg",
-      "https://zandokh.com/image/catalog/products/Tag%20Space/10512601005/3.jpg",
-      "https://zandokh.com/image/catalog/products/Tag%20Space/10512601005/4.jpg",
-    ],
+    image: ['https://i.pinimg.com/originals/3b/22/fa/3b22fa8c66aed50eed15cbedb35b86c6.jpg', 'https://i.pinimg.com/videos/thumbnails/originals/c2/d0/82/c2d08210e4123de391cfbe107137b9e1.0000000.jpg', 'https://i.pinimg.com/originals/53/08/56/530856f423b703f65b2fcac2a43c99b0.jpg', 'https://i.pinimg.com/originals/dd/e1/f0/dde1f074e295aebd12d6c7778dbc2763.jpg'],
     price: 16,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1236,12 +853,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/Tag%20Space/10512601003/1.jpg",
-      "https://zandokh.com/image/catalog/products/Tag%20Space/10512601003/2.jpg",
-      "https://zandokh.com/image/catalog/products/Tag%20Space/10512601003/3.jpg",
-      "https://zandokh.com/image/catalog/products/Tag%20Space/10512601003/4.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/48/b8/71/48b87163cce0a7ddb26e2842fc4d821d.jpg', 'https://i.pinimg.com/videos/thumbnails/originals/cf/e7/d6/cfe7d6b8779dcdb6a72a5dbea1865f6c.0000000.jpg', 'https://i.pinimg.com/originals/09/f3/24/09f324bf1c60eea0f8a57191c7c890ff.jpg', 'https://i.pinimg.com/originals/05/54/a7/0554a79130cecde72e3751c488eb8e82.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1253,12 +865,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-01/2522509919/TAKK3715.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/2522509919/TAKK3716.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/2522509919/TAKK3717.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/2522509919/TAKK3720.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/bf/c4/06/bfc406915dea963dfe51dbdc322dd739.jpg', 'https://i.pinimg.com/originals/5c/ba/eb/5cbaebaa72a0c3264f2e5f7a3da0534a.jpg', 'https://i.pinimg.com/originals/f4/5f/97/f45f97eff66f07eac8c64a97039c81fd.jpg', 'https://i.pinimg.com/736x/87/fa/c7/87fac7711c37c9b9125f7be676fc9996.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1270,13 +877,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-01/2522509915/TAKK3722.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/2522509915/TAKK3723.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/2522509915/TAKK3724.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/2522509915/TAKK3725.jpg"
-
-    ],
+    image: ['https://i.pinimg.com/736x/19/89/bf/1989bf69cb789930e73d4bdc5244d9e5.jpg', 'https://i.pinimg.com/736x/5a/84/71/5a84715a17c99765c84a08004fc7d305.jpg', 'https://i.pinimg.com/736x/87/63/80/8763805e2d7dceb7b20e4935c3b19a1f.jpg', 'https://i.pinimg.com/736x/d2/a9/fb/d2a9fb5c48818cda8a165cbdd0fb424a.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1288,12 +889,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-01/2522509918/TAKK3710.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/2522509918/TAKK3711.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/2522509918/TAKK3712.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/2522509918/TAKK3713.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/df/21/f5/df21f50e35fc65d9d687ee52561a122b.jpg', 'https://i.pinimg.com/736x/ce/9b/61/ce9b61175c1ad4a34b0f03e1fbbec484.jpg', 'https://i.pinimg.com/736x/24/23/54/24235430082210c91e7065317633214f.jpg', 'https://i.pinimg.com/736x/35/fc/1c/35fc1c629bc23d970419a8a6db149be1.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1305,12 +901,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-01/5582505109/TAKK9756.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5582505109%20Replace/TAKK9761.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5582505109%20Replace/TAKK9756.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5582505109/TAKK9760.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/d7/8d/97/d78d9727f0d8997bd2d9f669a905c991.jpg', 'https://i.pinimg.com/736x/a4/b3/4e/a4b34ef08199614e7878ff9bdfcae083.jpg', 'https://i.pinimg.com/736x/7d/ae/c2/7daec2526727cfa04b9c5407c7ddfd78.jpg', 'https://i.pinimg.com/736x/47/fd/62/47fd620c28794adbfbc3038da51df301.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1323,12 +914,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-12/2522509920/ZD__6203.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509920/ZD__6204.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509920/ZD__6206.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509920/ZD__6205.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/9f/ed/2e/9fed2e207c9aa2867a6dd22e99f2301b.jpg', 'https://i.pinimg.com/736x/e7/01/9a/e7019a127192523d00ff2af8df3a9c91.jpg', 'https://i.pinimg.com/736x/26/23/20/26232035b09fb80136b037485a0c4edd.jpg', 'https://i.pinimg.com/736x/30/27/4a/30274a0ebd0dc350447c332720d2db7b.jpg'],
     price: 5,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1340,12 +926,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-12/2522509902%20Replace/VSAL0972.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509902%20Replace/VSAL0973.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509902%20Replace/VSAL0975.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509902%20Replace/VSAL0974.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/6b/ed/cb/6bedcb8ee8749f2df076a235c7807917.jpg', 'https://i.pinimg.com/736x/fa/4a/63/fa4a63699ca4bb1e1b72283b03325a4b.jpg', 'https://i.pinimg.com/736x/2d/d0/8b/2dd08b9eb0e6387d6b617486d68f5528.jpg', 'https://i.pinimg.com/736x/41/c4/0a/41c40a95938c4eb05100b9eeab081bbf.jpg'],
     price: 7,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1357,13 +938,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-12/2522509901/VSAL0976.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509901/VSAL0977.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509901/VSAL0980.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509901/VSAL0979.jpg",
-      "https://zandokh.com/image/catalog/products/2025-12/2522509901/VSAL0978.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/82/c9/f8/82c9f808c55ce0c460e7783bc63824fe.jpg', 'https://i.pinimg.com/736x/c5/e1/d4/c5e1d40443e25164962987dc5e05a634.jpg', 'https://i.pinimg.com/736x/92/35/0f/92350ff37339cdf6f4e948865a575d4c.jpg', 'https://i.pinimg.com/736x/43/d7/78/43d778011af26bc36222950f9a6248fe.jpg', 'https://i.pinimg.com/736x/b4/36/28/b436281bbb68dc94f70e73f11a62ad85.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1375,12 +950,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-11/2522506890%20Cap/TAKK8349.jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/2522506890%20Cap/TAKK8350.jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/2522506890%20Cap/TAKK8351.jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/2522506890%20Cap/TAKK8353.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/99/6c/08/996c086df158580018a036c9a3b05b0f.jpg', 'https://i.pinimg.com/736x/5d/fe/33/5dfe337ef044b61c5a5b83f2899c27e4.jpg', 'https://i.pinimg.com/474x/91/61/e7/9161e71f9ef68de4cc666279960bc3a7.jpg', 'https://i.pinimg.com/474x/13/b5/68/13b568e91e952bef0707f2439cf1f23b.jpg'],
     price: 7,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1392,12 +962,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-11/4122507440/White%20(3).jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/4122507440/White%20(4).jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/4122507440/White%20(3).jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/4122507440/White%20(1).jpg"
-    ],
+    image: ['https://i.pinimg.com/474x/2c/fb/ac/2cfbac03de672f42fd5204b0f8e30422.jpg', 'https://i.pinimg.com/474x/6d/9d/bb/6d9dbb8314a55a9ab041454f96415772.jpg', 'https://i.pinimg.com/474x/2a/77/a4/2a77a4eb22f8b661a2b3c7b739189a8d.jpg', 'https://i.pinimg.com/474x/0d/5e/62/0d5e62505e5858eabc220808be85aebb.jpg'],
     price: 8,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1409,14 +974,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-11/4122507442/Dark%20Red%20(4).jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/4122507442/Dark%20Red%20(1).jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/4122507442/Dark%20Red%20(3).jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/4122507442/Dark%20Red%20(2).jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/4122507442/TAKK8654.jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/4122507442/TAKK8656.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/30/f2/ed/30f2ed14a3fff87a0dc935803d682e5f.jpg', 'https://i.pinimg.com/236x/ff/90/a6/ff90a628c2986d30baf5897c8941b952.jpg', 'https://i.pinimg.com/236x/28/ef/85/28ef85d1ea7c882e73a8b9d7b1a38480.jpg', 'https://i.pinimg.com/236x/e4/2d/4c/e42d4cdfcf8c75bd7e7ffe4b49f90f44.jpg', 'https://i.pinimg.com/236x/24/c1/6a/24c16a7e7aae3123044461d18282caed.jpg', 'https://i.pinimg.com/236x/b2/a2/af/b2a2af156c6da93bb3790c3883635ac2.jpg'],
     price: 10,
     discount: 30,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1431,14 +989,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/5582507137/PTAK6077.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507137/PTAK6078.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507137/PTAK6079.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507137/PTAK6080.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507137/PTAK6081.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507137/PTAK6082.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/21/35/ac/2135acf0edd2d917d5a1068be3dcddf4.jpg', 'https://i.pinimg.com/236x/8a/e2/47/8ae2475d109ae48355eb83d170c33abb.jpg', 'https://i.pinimg.com/236x/d0/02/9c/d0029cb97914c469de131639aba55fa7.jpg', 'https://i.pinimg.com/236x/0e/98/d5/0e98d59eeb3007061f09ddeb9d266040.jpg', 'https://i.pinimg.com/236x/ab/59/d4/ab59d4acfdd309111aa2850b45115f6c.jpg', 'https://i.pinimg.com/236x/8f/6b/b4/8f6bb4d1d74102c6e94fedc7c1bb1e8b.jpg'],
     price: 31,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1450,14 +1001,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/5582507136/PTAK6110.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507136/PTAK6112.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507136/PTAK6113.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507136/PTAK6115.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507136/PTAK6116.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507136/PTAK6117.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/48/b6/30/48b630f4ce907ee13aee267f7f8ca273.jpg', 'https://i.pinimg.com/236x/c4/6f/13/c46f130936b395cb99f5fa28dd810d52.jpg', 'https://i.pinimg.com/236x/1f/c6/ba/1fc6bae257d3036ef36b5f0464e3b985.jpg', 'https://i.pinimg.com/236x/e2/5a/fb/e25afb384bdedcfc926a31821490d975.jpg', 'https://i.pinimg.com/236x/8c/68/74/8c68748e7c1f5758f2b6829d70b91e6e.jpg', 'https://i.pinimg.com/236x/d4/3a/97/d43a973ef585d3f9f15d4a18c0c89a93.jpg'],
     price: 25,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1469,14 +1013,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/5582507135/PTAK6121.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507135/PTAK6123.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507135/PTAK6124.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507135/PTAK6125.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507135/PTAK6126.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507135/PTAK6127.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/63/02/e7/6302e7e927b5ca83545f631ecc3fb870.jpg', 'https://i.pinimg.com/236x/cf/78/48/cf78488c1802bcffecbc9600d7ed10fe.jpg', 'https://i.pinimg.com/236x/bc/24/50/bc2450aa51c22c08848e6b7aeed232d4.jpg', 'https://i.pinimg.com/236x/e8/61/0e/e8610e110c249eb6b3e26465e7dbf082.jpg', 'https://i.pinimg.com/236x/a0/01/e0/a001e0b3180d2b7d697e6d28ecd8f81b.jpg', 'https://i.pinimg.com/236x/c8/d7/d7/c8d7d7d763049b23b672363c1bed6f35.jpg'],
     price: 34,
     discount: 30,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1488,14 +1025,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/5582507134/PTAK6104.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507134/PTAK6105.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507134/PTAK6106.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507134/PTAK6107.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507134/PTAK6108.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/5582507134/PTAK6109.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/f6/78/41/f6784178fcadb6affc9f9f34acaae202.jpg', 'https://i.pinimg.com/236x/58/75/d8/5875d862e56dea081d9dde775efca5e9.jpg', 'https://i.pinimg.com/236x/3a/58/f9/3a58f9f973f0e0e43411fb33b0df16bb.jpg', 'https://i.pinimg.com/236x/3b/49/a0/3b49a03417f41ca3d7416b98fd0be02e.jpg', 'https://i.pinimg.com/236x/65/3e/a3/653ea373ef9d1738540bed27adf24d1a.jpg', 'https://i.pinimg.com/236x/79/80/93/798093adc219e9905709b6e032968bc2.jpg'],
     price: 49,
     discount: 20,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1507,13 +1037,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-02/5582507139/TAKK6799.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507139/TAKK6801.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507139/TAKK6803.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507139/TAKK6802.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507139/TAKK6804.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/49/d1/9e/49d19ec2c47a08e439419b18cb41ae79.jpg', 'https://i.pinimg.com/236x/43/64/89/436489dcb9c3f9f8c9bb8587e2afb746.jpg', 'https://i.pinimg.com/236x/65/b3/e8/65b3e8525230e955e61a6db5f90afab0.jpg', 'https://i.pinimg.com/236x/c1/86/f5/c186f5aa60706612a058725dce4a2569.jpg', 'https://i.pinimg.com/236x/4e/af/55/4eaf5505a2a5a123f332499d7ac566a6.jpg'],
     price: 22,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1525,13 +1049,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-02/5582507138/TAKK6813.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507138/TAKK6814.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507138/TAKK6816.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507138/TAKK6815.jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/5582507138/TAKK6817.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ee/c2/49/eec249a4cd1a60850e817f2649503a41.jpg', 'https://i.pinimg.com/236x/64/80/35/64803512394a316ba6b9fa470c201690.jpg', 'https://i.pinimg.com/236x/3d/d4/d2/3dd4d29fa42a7878142c46c1934c38fd.jpg', 'https://i.pinimg.com/236x/51/55/51/515551d439b52b0ff8c341bafb59b44f.jpg', 'https://i.pinimg.com/236x/00/94/b2/0094b2038159889640d208eff3d3d70c.jpg'],
     price: 10,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1543,13 +1061,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-09/5582503049%20/ZD__0064%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503049%20/ZD__0066.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503049%20/ZD__0067.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503049%20/ZD__0064%20copy%202.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503049%20/ZD__0066%20copy.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/93/29/32/9329326c581ae3bcb02c78193fd05a27.jpg', 'https://i.pinimg.com/236x/23/aa/0f/23aa0fa59023077b284886023469a0fd.jpg', 'https://i.pinimg.com/236x/08/00/30/080030c36eed1b4a7aa1793992d8533a.jpg', 'https://i.pinimg.com/236x/ce/ba/97/ceba978138eb14542de4eb2a3f8d9224.jpg', 'https://i.pinimg.com/236x/cb/58/46/cb58468bee76a71a11d1cd58b1e26cfd.jpg'],
     price: 30,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1561,14 +1073,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-09/5582503050/PTAK6145.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503050/PTAK6146.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503050/PTAK6147.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503050/PTAK6148.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503050/PTAK6149.jpg",
-      "https://zandokh.com/image/catalog/products/2025-09/5582503050/PTAK6150.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/68/d6/9b/68d69bcbb8eec22daa7dad8bb5c6e88d.jpg', 'https://i.pinimg.com/236x/1b/24/79/1b24798f33666931733af919c5edcc2a.jpg', 'https://i.pinimg.com/236x/9a/5c/6a/9a5c6a77159b3ad51ebd9de5368f4d1a.jpg', 'https://i.pinimg.com/236x/46/4d/b6/464db63af8acd9ccd0f16a9db63e61cc.jpg', 'https://i.pinimg.com/236x/50/d4/f4/50d4f44c106d5c24f87179c9ae9381b9.jpg', 'https://i.pinimg.com/236x/12/b2/98/12b298b0598fc4088d4ef5e5c162b644.jpg'],
     price: 25,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1580,12 +1085,7 @@ export const products = [
     item: "Accessories",
     type: "Bags",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-11/2522508835/ZD__9474%20-%20Copy.jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/2522508835/ZD__9472.jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/2522508835/ZD__9474.jpg",
-      "https://zandokh.com/image/catalog/products/2025-11/2522508835/ZD__9473.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/18/07/d4/1807d4d117372afc14d0a5904c0d57ca.jpg', 'https://i.pinimg.com/236x/ff/ef/a2/ffefa29ea5b4c24f709be06499abfd6a.jpg', 'https://i.pinimg.com/236x/4c/ac/f6/4cacf653a08c024e7b7cd3216aa07e64.jpg', 'https://i.pinimg.com/236x/08/43/8e/08438e8967119d11d851d3802ae146c0.jpg'],
     price: 12,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1597,13 +1097,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5142511001/STU_1051.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5142511001/STU_1054.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5142511001/STU_1052.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5142511001/STU_1053.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5142511001/STU_1052_.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/27/22/ee/2722ee463c24d4d4a4796c289bf5ea13.jpg', 'https://i.pinimg.com/236x/26/21/b0/2621b0abe2864154ecf15ed5a9bb73e4.jpg', 'https://i.pinimg.com/236x/d9/db/d0/d9dbd0fbc8193aba87e289d70916e15e.jpg', 'https://i.pinimg.com/236x/85/14/e6/8514e6fff30d74ed803cd0c7b7dd8fe7.jpg', 'https://i.pinimg.com/236x/c1/e7/42/c1e7426793c491bccbf967a259e58294.jpg'],
     price: 18,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1615,13 +1109,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5152511018/AV8A9601.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5152511018/AV8A9604.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5152511018/AV8A9602.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5152511018/AV8A9603.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5152511018/AV8A9602_.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/95/b9/fd/95b9fd9242ca6a2bc933b98545c22a43.jpg', 'https://i.pinimg.com/236x/e2/01/a3/e201a3b3b56624758e7e587e339cef07.jpg', 'https://i.pinimg.com/236x/40/1b/1e/401b1eea93779504ccbd85b0051a2b22.jpg', 'https://i.pinimg.com/236x/65/87/59/6587595f234466f5a25af5b0ac077404.jpg', 'https://i.pinimg.com/236x/2b/73/94/2b73940ed9dfdd562ae9be2d58192034.jpg'],
     price: 16,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1633,10 +1121,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-02/4122511457/10S26SAN007%20-%20BLACK%20(1).jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/4122511457/10S26SAN007%20-%20BLACK%20(2).jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/7b/f7/74/7bf774cbbb35aaefb88bca74cd2244b0.jpg', 'https://i.pinimg.com/236x/25/15/12/25151267b6f91109d4d4efb39631f0ce.jpg'],
     price: 21,
     discount: 20,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1648,10 +1133,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-02/4122508406/10S26SAN002%20-%20BROWN%20(1).jpg",
-      "https://zandokh.com/image/catalog/products/2026-02/4122508406/10S26SAN002%20-%20BROWN%20(2).jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/16/42/da/1642da8f049520dd22b32bf5f1c57477.jpg', 'https://i.pinimg.com/236x/ec/45/7d/ec457d7531dcbd197d468f4b46cde6b8.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1663,13 +1145,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-01/5152508102/TAKK5300.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5152508102/TAKK5303.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5152508102/TAKK5301.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5152508102/TAKK5302.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/5152508102/TAKK5301%20-%20Copy.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/25/ef/0c/25ef0c43d15ddc2ce0a9f7a06995fac4.jpg', 'https://i.pinimg.com/236x/ce/e5/28/cee528583fcfca4791f8d73d4640b8c4.jpg', 'https://i.pinimg.com/236x/e9/19/71/e91971560ab10ea335853346c7e4f390.jpg', 'https://i.pinimg.com/236x/39/6d/5e/396d5e436abaacfa3d326be617f3b459.jpg', 'https://i.pinimg.com/236x/0c/02/aa/0c02aab186645791ae1cf8b2cdbbef85.jpg'],
     price: 23,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1681,12 +1157,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-10/2522507830/ZD__9988.jpg",
-      "https://zandokh.com/image/catalog/products/2025-10/2522507830/ZD__9990.jpg",
-      "https://zandokh.com/image/catalog/products/2025-10/2522507830/ZD__9989.jpg",
-      "https://zandokh.com/image/catalog/products/2025-10/2522507830/ZD__9987.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/6f/3b/9e/6f3b9e4998055336014b20b8f9d6d9ab.jpg', 'https://i.pinimg.com/236x/e7/69/48/e76948b1fb070c9e1b6018d47bcffcde.jpg', 'https://i.pinimg.com/236x/96/51/58/96515809a96491953d2e4a31a4c1160e.jpg', 'https://i.pinimg.com/236x/d8/37/35/d83735c9d762bd6b9c43309212f4b877.jpg'],
     price: 8,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1698,13 +1169,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-05/5152411101%20replace/ZANDO2105202525840.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/5152411101%20replace/ZANDO2105202525844.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/5152411101%20replace/ZANDO2105202525842.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/5152411101%20replace/ZANDO2105202525842%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/5152411101%20replace/ZANDO2105202525843.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/6a/70/36/6a703674ba338346641d374807f8afc4.jpg', 'https://i.pinimg.com/236x/96/d8/34/96d834a192a3e6d92bc31cf68089c3f8.jpg', 'https://i.pinimg.com/236x/c8/0a/40/c80a40bc2ae964113f4dcb1f50db9d14.jpg', 'https://i.pinimg.com/236x/1e/0f/46/1e0f46916219463ac27215457bd87fbb.jpg', 'https://i.pinimg.com/236x/41/01/87/4101870f0abb76d7315d195a418a69f2.jpg'],
     price: 32,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1716,13 +1181,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-05/5142411062%20replace/ZANDO2105202525831.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/5142411062%20replace/ZANDO2105202525834.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/5142411062%20replace/ZANDO2105202525832.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/5142411062%20replace/ZANDO2105202525832%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/5142411062%20replace/ZANDO2105202525833.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/95/ae/52/95ae52f1f1e6d30acaa032faed5b298c.jpg', 'https://i.pinimg.com/236x/bc/5a/72/bc5a72d8c7fa07e7fffea65b85e0ca19.jpg', 'https://i.pinimg.com/236x/6e/2a/79/6e2a79e9e8769297ca7f3d8db5627f8a.jpg', 'https://i.pinimg.com/236x/42/2f/29/422f292b9eee76af76e798f694672a75.jpg', 'https://i.pinimg.com/236x/13/fb/6d/13fb6dde7ca2c03bfb3a2028165f432d.jpg'],
     price: 33,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1734,13 +1193,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-05/21225031142/AFTERNOON22179.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/21225031142/AFTERNOON22183.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/21225031142/AFTERNOON22177.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/21225031142/AFTERNOON22182.jpg",
-      "https://zandokh.com/image/catalog/products/2025-05/21225031142/AFTERNOON22177%20copy.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/94/ad/27/94ad273b5d11222e4d506a2d2df0e711.jpg', 'https://i.pinimg.com/236x/50/f0/84/50f0843e35424970dba40675c09d1f9f.jpg', 'https://i.pinimg.com/236x/df/ca/e6/dfcae6f08af86aa95cbcfa644a7fa4c4.jpg', 'https://i.pinimg.com/236x/84/6a/b2/846ab207357fcb904b023af490eadd47.jpg', 'https://i.pinimg.com/236x/75/c8/d1/75c8d1a0c11c4e940a140b31d5548c93.jpg'],
     price: 12,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1752,13 +1205,7 @@ export const products = [
     item: "Accessories",
     type: "Sandals",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2025-02/2522501636/IMG_0076.jpg",
-      "https://zandokh.com/image/catalog/products/2025-02/2522501636/IMG_0081.jpg",
-      "https://zandokh.com/image/catalog/products/2025-02/2522501636/IMG_0077.jpg",
-      "https://zandokh.com/image/catalog/products/2025-02/2522501636/IMG_0078.jpg",
-      "https://zandokh.com/image/catalog/products/2025-02/2522501636/IMG_0079.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/10/e6/d4/10e6d452deaaff89f7c2f2012212617e.jpg', 'https://i.pinimg.com/236x/84/c9/3a/84c93a2b08e1ec17ff52262cb1b007b5.jpg', 'https://i.pinimg.com/236x/b9/bb/2a/b9bb2a5b9cf04958a24eb9f45e608449.jpg', 'https://i.pinimg.com/236x/7b/bd/44/7bbd44a73451fbb34cd26c2a619d4dfa.jpg', 'https://i.pinimg.com/236x/30/db/98/30db982aa29f79dfe8ebac0a59324de4.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1773,13 +1220,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/12225112386/AV8A9013.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112386/AV8A9016.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112386/AV8A9007.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112386/AV8A9011.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112386/AV8A9017.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/25/94/b5/2594b5618cbb1b7568f8389d3bbb24ca.jpg', 'https://i.pinimg.com/236x/05/4b/b0/054bb091bee3edabe14f5f4a33d46288.jpg', 'https://i.pinimg.com/236x/29/e0/a6/29e0a620420755c2800a67cf0576e42c.jpg', 'https://i.pinimg.com/236x/e3/e1/ae/e3e1ae1d45b4b2468f634a7813291d91.jpg', 'https://i.pinimg.com/236x/f6/a9/fd/f6a9fd80c82d0d411dbcbba8126c61b6.jpg'],
     price: 22,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1791,13 +1232,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22226022030/STU_5656.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022030/STU_5650.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022030/STU_5651.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022030/STU_5653.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022030/STU_5649.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/58/fd/be/58fdbe1b19e6104d5b4ed4f93302887d.jpg', 'https://i.pinimg.com/236x/00/e7/d6/00e7d65efb5b202f73bae9d2ac50e98f.jpg', 'https://i.pinimg.com/236x/9c/ec/38/9cec38b897fbbe1e7bba1c65d8e23fff.jpg', 'https://i.pinimg.com/236x/77/65/76/776576a8b9714c2c2d9fb8e279d2016d.jpg', 'https://i.pinimg.com/236x/f0/8f/ae/f08fae4e90d6b7f8d1f00a38b87a493a.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1810,13 +1245,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22226022466/STU_5574.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022466/STU_5572.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022466/STU_5579.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022466/STU_5573.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022466/STU_5571.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/73/8f/97/738f97b916efecf2280381a2ed3faa38.jpg', 'https://i.pinimg.com/236x/fc/b7/ea/fcb7ea7c254a264f4dce9c2e7f850b64.jpg', 'https://i.pinimg.com/236x/f2/26/c1/f226c1d71265ade61e339b45eb90e357.jpg', 'https://i.pinimg.com/236x/cd/d3/47/cdd3474c494cc0ae0c60535254a90714.jpg', 'https://i.pinimg.com/236x/f6/49/c3/f649c31c6828f05bd5e33ecc86c0920e.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1828,13 +1257,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22225111855/STU_5491.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111855/STU_5489.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111855/STU_5492.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111855/STU_5490.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111855/STU_5488.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/88/d4/e4/88d4e49a66357e45d2b8409b3961c9d7.jpg', 'https://i.pinimg.com/236x/bb/3b/43/bb3b439c2c020dd777e9eb40be0398bb.jpg', 'https://i.pinimg.com/236x/fc/39/81/fc39817f77cb2b8109c1afe5bf93f22b.jpg', 'https://i.pinimg.com/236x/ec/f5/55/ecf5555c8715bb680cfe106f74ccac7f.jpg', 'https://i.pinimg.com/236x/0d/c9/b4/0dc9b43266e0d9de76242ab42b3c178c.jpg'],
     price: 21,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1846,13 +1269,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/12225122556/STU_5791.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225122556/STU_5796.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225122556/STU_5793.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225122556/STU_5790.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225122556/STU_5788.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/6d/d1/e3/6dd1e3eec37b912b4430fcb245c72d5a.jpg', 'https://i.pinimg.com/236x/56/fa/08/56fa083db2782c74d2b18656c534fa16.jpg', 'https://i.pinimg.com/236x/16/d9/1c/16d91c58f37c3d7cf36cea767557c53a.jpg', 'https://i.pinimg.com/236x/21/c1/f8/21c1f8ed9182bfc13d354df28c7751f6.jpg', 'https://i.pinimg.com/236x/12/8f/75/128f751e9bd7a6c90a998f0a43ae1fe6.jpg'],
     price: 20,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1864,13 +1281,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/12225112387/STU_5481.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112387/STU_5486.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112387/STU_5485.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112387/STU_5484.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112387/STU_5478.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/b5/6f/bf/b56fbfe23189623b5dd12076d8f995f4.jpg', 'https://i.pinimg.com/236x/59/50/90/5950903a78b367a4e8c79e144400e930.jpg', 'https://i.pinimg.com/236x/c2/29/bb/c229bb96f795ea5627b96bde8ee41452.jpg', 'https://i.pinimg.com/236x/21/f5/1e/21f51e631d0a06eaa4404e661831b4e8.jpg', 'https://i.pinimg.com/236x/b7/31/ad/b731ada01bf351ecac6f6ecc54f8192c.jpg'],
     price: 22,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1882,13 +1293,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22226022440/STU_3293.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022440/STU_3289.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022440/STU_3295.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022440/STU_3290.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022440/STU_3288.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ed/1f/1a/ed1f1a588337c9eeb967b09778c926c8.jpg', 'https://i.pinimg.com/236x/c6/30/60/c63060e491ad3a96a9cac2497e0c0bf6.jpg', 'https://i.pinimg.com/236x/eb/c7/ba/ebc7bad18ed1b21e2fa2eed0ba4a15b1.jpg', 'https://i.pinimg.com/236x/9b/bd/87/9bbd87c6d8a283ec1cbd0649fa630da0.jpg', 'https://i.pinimg.com/236x/c7/11/f2/c711f240c484e75a8c59f7160dfd535a.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1900,13 +1305,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22225111856/STU_2816.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111856/STU_2820.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111856/STU_2809.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111856/STU_2817.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111856/STU_2821.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ff/27/84/ff2784decf2d94709b65d944f243d97e.jpg', 'https://i.pinimg.com/236x/bb/e2/45/bbe2457b932850d7c22b88363b115857.jpg', 'https://i.pinimg.com/236x/d7/57/34/d75734b2711e3a9b973225ed9cfabc23.jpg', 'https://i.pinimg.com/236x/ca/8e/c3/ca8ec3d2f0f7a67a5f558b455e1eba5b.jpg', 'https://i.pinimg.com/236x/83/4b/05/834b056d6932ef883792f62b851bf15b.jpg'],
     price: 17,
     discount: 20,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1918,13 +1317,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/12226012588/STU_2829%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012588/STU_2824%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012588/STU_2836%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012588/STU_2825%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012588/STU_2823.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/b7/07/cd/b707cdddac42a2d500eb32da539936a2.jpg', 'https://i.pinimg.com/236x/e5/d4/27/e5d427c5d427c753cf5a724342306e00.jpg', 'https://i.pinimg.com/236x/ac/02/d8/ac02d866756d2197d3bdf2e7e1a05fbf.jpg', 'https://i.pinimg.com/236x/18/c5/e8/18c5e8c169b0eb811a5bc0e70bd084d5.jpg', 'https://i.pinimg.com/236x/93/af/8a/93af8aab0747367b03c65a731dc063f7.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1937,14 +1330,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/6212512106/462906_2h.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/6212512106/462906_1c.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/6212512106/462906_6.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/6212512106/462906_3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/6212512106/462906_4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/6212512106/462906_5.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/0d/3a/3f/0d3a3f8fea2665bf65e72a22a7129e35.jpg', 'https://i.pinimg.com/236x/06/b4/d7/06b4d7a654bead0aff4c1e0ca196a595.jpg', 'https://i.pinimg.com/236x/d6/ec/32/d6ec320ae2be26abeb2f864b9573b7e6.jpg', 'https://i.pinimg.com/236x/3e/a4/30/3ea430b58bee1d2a912985c2e6f42c4a.jpg', 'https://i.pinimg.com/236x/ce/aa/2d/ceaa2de1bef9f53691a04a6f79730629.jpg', 'https://i.pinimg.com/236x/4e/c1/6f/4ec16fc7f5613a2e4dfcd4dad98f985c.jpg'],
     price: 52,
     discount: 20,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1956,13 +1342,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/6212512104/462903_1c.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/6212512104/462903_3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/6212512104/462903_5.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/6212512104/462903_2h.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/6212512104/462903_4.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ba/4d/b7/ba4db7863b602423be0c41e1f2a95f95.jpg', 'https://i.pinimg.com/236x/fd/87/db/fd87dbf8d9f3102a36f48a4af69d2f88.jpg', 'https://i.pinimg.com/236x/79/a6/77/79a67726663a44b2a9d51b3a5e79041b.jpg', 'https://i.pinimg.com/236x/22/54/c1/2254c132cf5591122894e8c6c8771b8d.jpg', 'https://i.pinimg.com/236x/88/3d/0c/883d0c354ce74d8ae39ce1fa66cde7d2.jpg'],
     price: 53,
     discount: 30,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1974,13 +1354,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/12225112437/STU_7195.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/12225112437/STU_7190.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/12225112437/STU_7205.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/12225112437/STU_7208.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/12225112437/STU_7207.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/c1/22/12/c122123dde47cef71506f3883ee218f6.jpg', 'https://i.pinimg.com/236x/16/cf/1e/16cf1ebb9d7faaf9b8d91d36ce203300.jpg', 'https://i.pinimg.com/236x/e6/69/42/e669426e17c601ab2494439f6d6670bc.jpg', 'https://i.pinimg.com/236x/b5/03/c2/b503c25b310867e6536b25d0b451684d.jpg', 'https://i.pinimg.com/236x/d6/92/1d/d6921d21bef4306318f2239dac5e7095.jpg'],
     price: 17,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -1992,13 +1366,7 @@ export const products = [
     item: "Clothing",
     type: "Dresses",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/12225112438/STU_7167.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/12225112438/STU_7163.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/12225112438/STU_7171.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/12225112438/STU_7164.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/12225112438/STU_7162.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/5b/b5/43/5bb5430436ff4a195624eb32bc05f01e.jpg', 'https://i.pinimg.com/236x/42/c4/32/42c4320a89f23f70551750f4ec26902c.jpg', 'https://i.pinimg.com/236x/24/b2/ea/24b2ea9a2178d66d6a0b4f86bbb74cfa.jpg', 'https://i.pinimg.com/236x/26/87/eb/2687eb1237fe29cbaf9d4d545a5b573a.jpg', 'https://i.pinimg.com/236x/98/3b/3c/983b3c1f0531689e5ff0596c4da8e351.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2013,13 +1381,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22226011980/STU_3381.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011980/STU_3376.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011980/STU_3384.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011980/STU_3378.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011980/STU_3375.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/f8/7a/24/f87a249fa295801576f71dd41fd0a8e7.jpg', 'https://i.pinimg.com/236x/5d/ab/77/5dab77442e5ebea07182aa7c7d29216d.jpg', 'https://i.pinimg.com/236x/b7/8a/a0/b78aa0939e091c8a9bc55d3c9ab02337.jpg', 'https://i.pinimg.com/236x/82/0d/86/820d860d09a25b6181f5cd9d2c3e7b7f.jpg', 'https://i.pinimg.com/236x/cc/6a/c7/cc6ac76fa1e1c5a430432603fa8e1677.jpg'],
     price: 10,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2031,13 +1393,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22225121888/STU_5829.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225121888/STU_5825.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225121888/STU_5833.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225121888/STU_5827.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225121888/STU_5824.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/6e/f3/52/6ef352802a7c6bee0716dbb34c2731cd.jpg', 'https://i.pinimg.com/236x/1b/e1/c9/1be1c96192ab49001608a35c1c6beed4.jpg', 'https://i.pinimg.com/236x/40/51/9e/40519e1895b898f9fe1010b24fedef2d.jpg', 'https://i.pinimg.com/236x/03/b1/ee/03b1ee4f44521a0f43fde0ba4310a256.jpg', 'https://i.pinimg.com/236x/a8/e7/6e/a8e76e3a4fb7b768d02c70e63b1db322.jpg'],
     price: 11,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2049,13 +1405,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/12226012571/STU_5588.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012571/STU_5584.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012571/replace.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012571/STU_5586.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012571/STU_5583.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/32/49/64/324964327718a3fc5487ae64b29a8f66.jpg', 'https://i.pinimg.com/236x/e7/2b/14/e72b14bf042bf6e5ad23039528a805c9.jpg', 'https://i.pinimg.com/236x/6b/3c/94/6b3c949946d3cea47930979033eda315.jpg', 'https://i.pinimg.com/236x/20/c4/97/20c497eb3e38a498bbd0269a92e815ac.jpg', 'https://i.pinimg.com/236x/dd/82/c4/dd82c426f26ef3a001b6c3e6dcdaa93a.jpg'],
     price: 13,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2067,13 +1417,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/12226012567/STU_2784.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012567/STU_2778.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012567/STU_2786.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012567/STU_2779.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012567/STU_2777.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/a8/66/97/a86697e6e0a63603bcded98c689dc333.jpg', 'https://i.pinimg.com/236x/88/ff/21/88ff213bbf10b229ff3c0515178a019a.jpg', 'https://i.pinimg.com/236x/26/99/46/26994683bd27184696df40435c4ab51d.jpg', 'https://i.pinimg.com/236x/fc/d4/33/fcd433b815170329a95f574c41d4edd8.jpg', 'https://i.pinimg.com/236x/8a/71/36/8a71366832b672a1f50fbb9e7c61e64a.jpg'],
     price: 13,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2085,13 +1429,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/12225112445/STU_2544.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112445/STU_2540.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112445/STU_2551.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112445/STU_2541.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225112445/STU_2539.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/d2/03/a8/d203a8aabb198ec42410f6839832f2b3.jpg', 'https://i.pinimg.com/236x/93/c4/70/93c4703c6228a51b2253b48047eaeace.jpg', 'https://i.pinimg.com/236x/f1/cc/5d/f1cc5dab6e793b16118987fcf9aa7388.jpg', 'https://i.pinimg.com/236x/93/47/7c/93477c5c32e021a8c514f2f7da9230b1.jpg', 'https://i.pinimg.com/236x/14/6e/51/146e51451e1d84b7340b1741b7cbecc8.jpg'],
     price: 15,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2103,13 +1441,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/12225122503/STU_2718%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225122503/STU_2713%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225122503/STU_2720%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225122503/STU_2714%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12225122503/STU_2711%20copy.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/6e/64/bd/6e64bda30f748881314184d4a6638b0f.jpg', 'https://i.pinimg.com/236x/85/27/12/852712c87cdfe20b589e97c004ed0c99.jpg', 'https://i.pinimg.com/236x/cd/ca/04/cdca041b316d1652b8e3794bab9e4284.jpg', 'https://i.pinimg.com/236x/ce/17/a5/ce17a5c67f8d3c0e6dfc602420f131fb.jpg', 'https://i.pinimg.com/236x/0c/2b/06/0c2b0654681baa0a5d345f83e0e5ec23.jpg'],
     price: 10,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2121,14 +1453,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/10212604047/image_2026-04-16_11-10-43.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10212604047/image_2026-04-16_11-10-33.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10212604047/image_2026-04-16_11-10-47.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10212604047/image_2026-04-16_11-10-39.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10212604047/image_2026-04-16_11-10-09.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10212604047/image_2026-04-16_11-10-14.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/97/74/97/977497edf1aaacd4a66d5de4d0115c60.jpg', 'https://i.pinimg.com/236x/74/39/ac/7439ac955a36f150c1b2fdb58d61d160.jpg', 'https://i.pinimg.com/236x/7e/98/b4/7e98b4c53a84d5c2d8d952c1433cc755.jpg', 'https://i.pinimg.com/236x/e5/74/be/e574be185b6921db05c8cde85f567fa3.jpg', 'https://i.pinimg.com/236x/60/de/98/60de982ddbe2d4f998f2ad48838b28a7.jpg', 'https://i.pinimg.com/236x/01/78/57/01785751c933316bc1cb295a277f7ab8.jpg'],
     price: 11,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2140,14 +1465,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5272508004/AV8A9234.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5272508004/AV8A9232.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5272508004/AV8A9240.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5272508004/AV8A9233.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5272508004/AV8A9231.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5272508004/AV8A9247.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/56/4b/91/564b9126da5b8057f92c8d91ba05ff09.jpg', 'https://i.pinimg.com/236x/25/e7/3f/25e73fd8c1406d8244a3bef3983aa099.jpg', 'https://i.pinimg.com/236x/04/9b/d0/049bd042d2412fd537743437979097b0.jpg', 'https://i.pinimg.com/236x/23/2e/ea/232eeaf2b8f3d56a2ea0e2624b51710a.jpg', 'https://i.pinimg.com/236x/36/03/5d/36035d67a2c262842010ea6e5a4512d2.jpg', 'https://i.pinimg.com/236x/c4/53/ba/c453bac435d93f72330ec08f102b23e6.jpg'],
     price: 13,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2159,13 +1477,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/52272511003/STU_1646.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/52272511003/STU_1639.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/52272511003/STU_1649.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/52272511003/STU_1640.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/52272511003/STU_1638.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/1b/15/10/1b15109936865e725ae264035174b71e.jpg', 'https://i.pinimg.com/236x/00/70/31/0070316bb971ea916c677be84792cef5.jpg', 'https://i.pinimg.com/236x/b5/3b/47/b53b47969efe38d55bd06130eb561c45.jpg', 'https://i.pinimg.com/originals/7c/cb/96/7ccb96d0fc39cbb0dcd7f90383faf7eb.jpg', 'https://i.pinimg.com/originals/ee/c6/41/eec64132b3fe3c0c24cfc7a7a2aa0778.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2177,13 +1489,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5232603019/STU_1880.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232603019/STU_1872.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232603019/STU_1881.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232603019/STU_1873.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232603019/STU_1871.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/75/d5/34/75d534ff37b16370e5bb520116d525c4.jpg', 'https://i.pinimg.com/originals/28/06/8c/28068c9069483c28d98091ea2fe83fb2.jpg', 'https://i.pinimg.com/originals/6c/05/e4/6c05e4a82369f2be83a289ada2bd04e2.jpg', 'https://i.pinimg.com/originals/87/de/56/87de566fa8b679e7eb5c22f7b35020c6.jpg', 'https://i.pinimg.com/originals/42/49/0c/42490c88aec3cdb4f241aa8772717216.jpg'],
     price: 28,
     discount: 70,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2195,13 +1501,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5232601002/STU_1845.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232601002/STU_1850.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232601002/STU_1841.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232601002/STU_1840.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232601002/STU_1839.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/5b/ad/83/5bad837a5920d3df82363e8d3cd0ff0a.jpg', 'https://i.pinimg.com/originals/15/42/28/154228dbc07c15550d6b17b50b044da5.jpg', 'https://i.pinimg.com/originals/0f/9d/06/0f9d0686239e425ae23b2a848a66e5c0.png', 'https://i.pinimg.com/originals/cc/76/97/cc769799797858d18701b78252bf16c0.jpg', 'https://i.pinimg.com/originals/c5/d6/58/c5d6581e290480256146ff8c1d3e2a0c.jpg'],
     price: 14,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2213,13 +1513,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22226022439/AV8A9072.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022439/AV8A9069.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022439/AV8A9080.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022439/AV8A9070.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226022439/AV8A9068.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/52/f4/69/52f4691966d74a6ee330c37b3bf864cd.png', 'https://i.pinimg.com/originals/ac/cf/df/accfdf980066f2ab126aecaf1d1d7425.png', 'https://i.pinimg.com/originals/2f/64/42/2f6442b990857bfc7bc1a29fc52b90cf.png', 'https://i.pinimg.com/originals/02/d4/48/02d44894b99105d80386ffe859e266e3.jpg', 'https://i.pinimg.com/originals/88/22/5a/88225ad2e353877c26c7b111e26d118d.jpg'],
     price: 9,
     discount: 30,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2231,13 +1525,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/12226012573/STU_1475.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012573/STU_1468.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012573/STU_1478.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012573/STU_1471.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/12226012573/STU_1467.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/fe/2d/9c/fe2d9c9db115c33517ef3e53720c68f0.png', 'https://i.pinimg.com/originals/2a/d1/db/2ad1db03603b3cd80633811f6f062298.jpg', 'https://i.pinimg.com/originals/bc/7a/53/bc7a53afa034d847676421600c037f60.png', 'https://i.pinimg.com/originals/ae/3e/f7/ae3ef75d5eda6d4e3f251484eac36730.png', 'https://i.pinimg.com/originals/b4/62/d0/b462d01c03e5ac4e803eeea550854b09.jpg'],
     price: 12,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2249,13 +1537,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22225121861/STU_1288.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225121861/STU_1283.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225121861/STU_1290.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225121861/STU_1284.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225121861/STU_1282.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/bb/eb/a3/bbeba3902ab4b259335b31585e0369e6.jpg', 'https://i.pinimg.com/originals/12/9a/ae/129aaedd66ec82934f5a621d73153beb.jpg', 'https://i.pinimg.com/videos/thumbnails/originals/9d/a8/36/9da836f5d524c2f70445cc58036e581f.0000000.jpg', 'https://i.pinimg.com/originals/67/71/6a/67716acba3de44d915dd07fdafc09d08.jpg', 'https://i.pinimg.com/originals/3b/22/fa/3b22fa8c66aed50eed15cbedb35b86c6.jpg'],
     price: 11,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2267,13 +1549,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5232511014/STU_1441.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232511014/STU_1437.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232511014/STU_1445.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232511014/STU_1438.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232511014/STU_1436.jpg"
-    ],
+    image: ['https://i.pinimg.com/videos/thumbnails/originals/c2/d0/82/c2d08210e4123de391cfbe107137b9e1.0000000.jpg', 'https://i.pinimg.com/originals/53/08/56/530856f423b703f65b2fcac2a43c99b0.jpg', 'https://i.pinimg.com/originals/dd/e1/f0/dde1f074e295aebd12d6c7778dbc2763.jpg', 'https://i.pinimg.com/originals/48/b8/71/48b87163cce0a7ddb26e2842fc4d821d.jpg', 'https://i.pinimg.com/videos/thumbnails/originals/cf/e7/d6/cfe7d6b8779dcdb6a72a5dbea1865f6c.0000000.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2285,14 +1561,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5232508041/AV8A9168.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232508041/AV8A9162.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232508041/AV8A9170.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232508041/AV8A9163.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232508041/AV8A9160.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232508041/AV8A9161.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/09/f3/24/09f324bf1c60eea0f8a57191c7c890ff.jpg', 'https://i.pinimg.com/originals/05/54/a7/0554a79130cecde72e3751c488eb8e82.jpg', 'https://i.pinimg.com/originals/bf/c4/06/bfc406915dea963dfe51dbdc322dd739.jpg', 'https://i.pinimg.com/originals/5c/ba/eb/5cbaebaa72a0c3264f2e5f7a3da0534a.jpg', 'https://i.pinimg.com/originals/f4/5f/97/f45f97eff66f07eac8c64a97039c81fd.jpg', 'https://i.pinimg.com/736x/87/fa/c7/87fac7711c37c9b9125f7be676fc9996.jpg'],
     price: 15,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2304,13 +1573,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22226011987/STU_9692.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011987/STU_9686.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011987/STU_9697.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011987/STU_9687.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011987/STU_9685.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/19/89/bf/1989bf69cb789930e73d4bdc5244d9e5.jpg', 'https://i.pinimg.com/736x/5a/84/71/5a84715a17c99765c84a08004fc7d305.jpg', 'https://i.pinimg.com/736x/87/63/80/8763805e2d7dceb7b20e4935c3b19a1f.jpg', 'https://i.pinimg.com/736x/d2/a9/fb/d2a9fb5c48818cda8a165cbdd0fb424a.jpg', 'https://i.pinimg.com/736x/df/21/f5/df21f50e35fc65d9d687ee52561a122b.jpg'],
     price: 12,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2322,13 +1585,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22226011973/STU_0986.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011973/STU_0981.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011973/STU_0992.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011973/STU_0982.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011973/STU_0980.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/ce/9b/61/ce9b61175c1ad4a34b0f03e1fbbec484.jpg', 'https://i.pinimg.com/736x/24/23/54/24235430082210c91e7065317633214f.jpg', 'https://i.pinimg.com/736x/35/fc/1c/35fc1c629bc23d970419a8a6db149be1.jpg', 'https://i.pinimg.com/736x/d7/8d/97/d78d9727f0d8997bd2d9f669a905c991.jpg', 'https://i.pinimg.com/736x/a4/b3/4e/a4b34ef08199614e7878ff9bdfcae083.jpg'],
     price: 10,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2342,13 +1599,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5232511024/PTAK0231.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232511024/PTAK0226.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232511024/PTAK0233.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232511024/PTAK0229.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232511024/PTAK0225.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/7d/ae/c2/7daec2526727cfa04b9c5407c7ddfd78.jpg', 'https://i.pinimg.com/736x/47/fd/62/47fd620c28794adbfbc3038da51df301.jpg', 'https://i.pinimg.com/736x/9f/ed/2e/9fed2e207c9aa2867a6dd22e99f2301b.jpg', 'https://i.pinimg.com/736x/e7/01/9a/e7019a127192523d00ff2af8df3a9c91.jpg', 'https://i.pinimg.com/736x/26/23/20/26232035b09fb80136b037485a0c4edd.jpg'],
     price: 22,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2360,13 +1611,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3222512693/STU_9280.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222512693/STU_9283.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222512693/STU_9274.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222512693/STU_9279.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222512693/STU_9282.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/30/27/4a/30274a0ebd0dc350447c332720d2db7b.jpg', 'https://i.pinimg.com/736x/6b/ed/cb/6bedcb8ee8749f2df076a235c7807917.jpg', 'https://i.pinimg.com/736x/fa/4a/63/fa4a63699ca4bb1e1b72283b03325a4b.jpg', 'https://i.pinimg.com/736x/2d/d0/8b/2dd08b9eb0e6387d6b617486d68f5528.jpg', 'https://i.pinimg.com/736x/41/c4/0a/41c40a95938c4eb05100b9eeab081bbf.jpg'],
     price: 53,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2378,13 +1623,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/52202511004/STU_7371.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/52202511004/STU_7369.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/52202511004/STU_7379.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/52202511004/STU_7370.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/52202511004/STU_7368.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/82/c9/f8/82c9f808c55ce0c460e7783bc63824fe.jpg', 'https://i.pinimg.com/736x/c5/e1/d4/c5e1d40443e25164962987dc5e05a634.jpg', 'https://i.pinimg.com/736x/92/35/0f/92350ff37339cdf6f4e948865a575d4c.jpg', 'https://i.pinimg.com/736x/43/d7/78/43d778011af26bc36222950f9a6248fe.jpg', 'https://i.pinimg.com/736x/b4/36/28/b436281bbb68dc94f70e73f11a62ad85.jpg'],
     price: 53,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2396,13 +1635,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5262511009/STU_7286.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5262511009/STU_7287.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5262511009/STU_7274.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5262511009/STU_7285.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5262511009/STU_7288.jpg"
-    ],
+    image: ['https://i.pinimg.com/736x/99/6c/08/996c086df158580018a036c9a3b05b0f.jpg', 'https://i.pinimg.com/736x/5d/fe/33/5dfe337ef044b61c5a5b83f2899c27e4.jpg', 'https://i.pinimg.com/474x/91/61/e7/9161e71f9ef68de4cc666279960bc3a7.jpg', 'https://i.pinimg.com/474x/13/b5/68/13b568e91e952bef0707f2439cf1f23b.jpg', 'https://i.pinimg.com/474x/2c/fb/ac/2cfbac03de672f42fd5204b0f8e30422.jpg'],
     price: 45,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2414,13 +1647,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5232603020/STU_7361.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232603020/STU_7355.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232603020/STU_7365.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232603020/STU_7356.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232603020/STU_7354.jpg"
-    ],
+    image: ['https://i.pinimg.com/474x/6d/9d/bb/6d9dbb8314a55a9ab041454f96415772.jpg', 'https://i.pinimg.com/474x/2a/77/a4/2a77a4eb22f8b661a2b3c7b739189a8d.jpg', 'https://i.pinimg.com/474x/0d/5e/62/0d5e62505e5858eabc220808be85aebb.jpg', 'https://i.pinimg.com/236x/30/f2/ed/30f2ed14a3fff87a0dc935803d682e5f.jpg', 'https://i.pinimg.com/236x/ff/90/a6/ff90a628c2986d30baf5897c8941b952.jpg'],
     price: 48,
     discount: 50,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2432,13 +1659,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5232511025/STU_7296.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232511025/STU_7293.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232511025/STU_7301.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232511025/STU_7294.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5232511025/STU_7292.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/28/ef/85/28ef85d1ea7c882e73a8b9d7b1a38480.jpg', 'https://i.pinimg.com/236x/e4/2d/4c/e42d4cdfcf8c75bd7e7ffe4b49f90f44.jpg', 'https://i.pinimg.com/236x/24/c1/6a/24c16a7e7aae3123044461d18282caed.jpg', 'https://i.pinimg.com/236x/b2/a2/af/b2a2af156c6da93bb3790c3883635ac2.jpg', 'https://i.pinimg.com/236x/21/35/ac/2135acf0edd2d917d5a1068be3dcddf4.jpg'],
     price: 47,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2450,13 +1671,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226022728/STU_5292.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022728/STU_5289.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022728/STU_5301.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022728/STU_5291.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022728/STU_5288.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/8a/e2/47/8ae2475d109ae48355eb83d170c33abb.jpg', 'https://i.pinimg.com/236x/d0/02/9c/d0029cb97914c469de131639aba55fa7.jpg', 'https://i.pinimg.com/236x/0e/98/d5/0e98d59eeb3007061f09ddeb9d266040.jpg', 'https://i.pinimg.com/236x/ab/59/d4/ab59d4acfdd309111aa2850b45115f6c.jpg', 'https://i.pinimg.com/236x/8f/6b/b4/8f6bb4d1d74102c6e94fedc7c1bb1e8b.jpg'],
     price: 24,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2468,13 +1683,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5252508056/STU_1958%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5252508056/STU_1956%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5252508056/STU_1969%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5252508056/STU_1957%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5252508056/STU_1955%20copy.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/48/b6/30/48b630f4ce907ee13aee267f7f8ca273.jpg', 'https://i.pinimg.com/236x/c4/6f/13/c46f130936b395cb99f5fa28dd810d52.jpg', 'https://i.pinimg.com/236x/1f/c6/ba/1fc6bae257d3036ef36b5f0464e3b985.jpg', 'https://i.pinimg.com/236x/e2/5a/fb/e25afb384bdedcfc926a31821490d975.jpg', 'https://i.pinimg.com/236x/8c/68/74/8c68748e7c1f5758f2b6829d70b91e6e.jpg'],
     price: 60,
     discount: 30,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2486,13 +1695,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226012607/STU_1356%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012607/STU_1351%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012607/STU_1357%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012607/STU_1352%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012607/STU_1349%20copy.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/d4/3a/97/d43a973ef585d3f9f15d4a18c0c89a93.jpg', 'https://i.pinimg.com/236x/63/02/e7/6302e7e927b5ca83545f631ecc3fb870.jpg', 'https://i.pinimg.com/236x/cf/78/48/cf78488c1802bcffecbc9600d7ed10fe.jpg', 'https://i.pinimg.com/236x/bc/24/50/bc2450aa51c22c08848e6b7aeed232d4.jpg', 'https://i.pinimg.com/236x/e8/61/0e/e8610e110c249eb6b3e26465e7dbf082.jpg'],
     price: 22,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2504,13 +1707,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22226011930/STU_0427%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011930/STU_0419%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011930/STU_0435%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011930/STU_0422%20copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22226011930/STU_0418%20copy.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/a0/01/e0/a001e0b3180d2b7d697e6d28ecd8f81b.jpg', 'https://i.pinimg.com/236x/c8/d7/d7/c8d7d7d763049b23b672363c1bed6f35.jpg', 'https://i.pinimg.com/236x/f6/78/41/f6784178fcadb6affc9f9f34acaae202.jpg', 'https://i.pinimg.com/236x/58/75/d8/5875d862e56dea081d9dde775efca5e9.jpg', 'https://i.pinimg.com/236x/3a/58/f9/3a58f9f973f0e0e43411fb33b0df16bb.jpg'],
     price: 25,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2522,13 +1719,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/cache/catalog/products/2026-04/22225081832/STU_6300-cr-450x672.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225081832/STU_6296.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225081832/STU_6306.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225081832/STU_6297.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225081832/STU_6295.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/3b/49/a0/3b49a03417f41ca3d7416b98fd0be02e.jpg', 'https://i.pinimg.com/236x/65/3e/a3/653ea373ef9d1738540bed27adf24d1a.jpg', 'https://i.pinimg.com/236x/79/80/93/798093adc219e9905709b6e032968bc2.jpg', 'https://i.pinimg.com/236x/49/d1/9e/49d19ec2c47a08e439419b18cb41ae79.jpg', 'https://i.pinimg.com/236x/43/64/89/436489dcb9c3f9f8c9bb8587e2afb746.jpg'],
     price: 25,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2540,13 +1731,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22225081732/STU_3459.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225081732/STU_3453.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225081732/STU_3461.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225081732/STU_3454.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225081732/STU_3452.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/65/b3/e8/65b3e8525230e955e61a6db5f90afab0.jpg', 'https://i.pinimg.com/236x/c1/86/f5/c186f5aa60706612a058725dce4a2569.jpg', 'https://i.pinimg.com/236x/4e/af/55/4eaf5505a2a5a123f332499d7ac566a6.jpg', 'https://i.pinimg.com/236x/ee/c2/49/eec249a4cd1a60850e817f2649503a41.jpg', 'https://i.pinimg.com/236x/64/80/35/64803512394a316ba6b9fa470c201690.jpg'],
     price: 21,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2558,13 +1743,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5252508049/STU_1394.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5252508049/STU_1387.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5252508049/STU_1395.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5252508049/STU_1390.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5252508049/STU_1386.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/3d/d4/d2/3dd4d29fa42a7878142c46c1934c38fd.jpg', 'https://i.pinimg.com/236x/51/55/51/515551d439b52b0ff8c341bafb59b44f.jpg', 'https://i.pinimg.com/236x/00/94/b2/0094b2038159889640d208eff3d3d70c.jpg', 'https://i.pinimg.com/236x/93/29/32/9329326c581ae3bcb02c78193fd05a27.jpg', 'https://i.pinimg.com/236x/23/aa/0f/23aa0fa59023077b284886023469a0fd.jpg'],
     price: 60,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2576,13 +1755,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5232508052/STU_1673.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232508052/STU_1671.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232508052/STU_1684.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232508052/STU_1672.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5232508052/STU_1670.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/08/00/30/080030c36eed1b4a7aa1793992d8533a.jpg', 'https://i.pinimg.com/236x/ce/ba/97/ceba978138eb14542de4eb2a3f8d9224.jpg', 'https://i.pinimg.com/236x/cb/58/46/cb58468bee76a71a11d1cd58b1e26cfd.jpg', 'https://i.pinimg.com/236x/68/d6/9b/68d69bcbb8eec22daa7dad8bb5c6e88d.jpg', 'https://i.pinimg.com/236x/1b/24/79/1b24798f33666931733af919c5edcc2a.jpg'],
     price: 29,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2594,13 +1767,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/22225111865/AV8A9040.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111865/AV8A9036.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111865/AV8A9045.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111865/AV8A9038.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/22225111865/AV8A9035.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/9a/5c/6a/9a5c6a77159b3ad51ebd9de5368f4d1a.jpg', 'https://i.pinimg.com/236x/46/4d/b6/464db63af8acd9ccd0f16a9db63e61cc.jpg', 'https://i.pinimg.com/236x/50/d4/f4/50d4f44c106d5c24f87179c9ae9381b9.jpg', 'https://i.pinimg.com/236x/12/b2/98/12b298b0598fc4088d4ef5e5c162b644.jpg', 'https://i.pinimg.com/236x/18/07/d4/1807d4d117372afc14d0a5904c0d57ca.jpg'],
     price: 28,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2612,13 +1779,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/10112603035/image_2026-04-08_17-04-43.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10112603035/image_2026-04-08_17-04-38.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10112603035/image_2026-04-08_17-04-34.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10112603035/image_2026-04-08_17-05-06.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10112603035/image_2026-04-08_17-04-59.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ff/ef/a2/ffefa29ea5b4c24f709be06499abfd6a.jpg', 'https://i.pinimg.com/236x/4c/ac/f6/4cacf653a08c024e7b7cd3216aa07e64.jpg', 'https://i.pinimg.com/236x/08/43/8e/08438e8967119d11d851d3802ae146c0.jpg', 'https://i.pinimg.com/236x/27/22/ee/2722ee463c24d4d4a4796c289bf5ea13.jpg', 'https://i.pinimg.com/236x/26/21/b0/2621b0abe2864154ecf15ed5a9bb73e4.jpg'],
     price: 39,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2630,13 +1791,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/5262412011/STU_9063.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5262412011/STU_9058.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5262412011/STU_9067.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5262412011/STU_9059.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/5262412011/STU_9057.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/d9/db/d0/d9dbd0fbc8193aba87e289d70916e15e.jpg', 'https://i.pinimg.com/236x/85/14/e6/8514e6fff30d74ed803cd0c7b7dd8fe7.jpg', 'https://i.pinimg.com/236x/c1/e7/42/c1e7426793c491bccbf967a259e58294.jpg', 'https://i.pinimg.com/236x/95/b9/fd/95b9fd9242ca6a2bc933b98545c22a43.jpg', 'https://i.pinimg.com/236x/e2/01/a3/e201a3b3b56624758e7e587e339cef07.jpg'],
     price: 67,
     discount: 70,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2651,13 +1806,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-01/22225081770/PTAK6689.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/22225081770/PTAK6686.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/22225081770/PTAK6697.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/22225081770/PTAK6687.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/22225081770/PTAK6684.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/40/1b/1e/401b1eea93779504ccbd85b0051a2b22.jpg', 'https://i.pinimg.com/236x/65/87/59/6587595f234466f5a25af5b0ac077404.jpg', 'https://i.pinimg.com/236x/2b/73/94/2b73940ed9dfdd562ae9be2d58192034.jpg', 'https://i.pinimg.com/236x/7b/f7/74/7bf774cbbb35aaefb88bca74cd2244b0.jpg', 'https://i.pinimg.com/236x/25/15/12/25151267b6f91109d4d4efb39631f0ce.jpg'],
     price: 67,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2669,13 +1818,7 @@ export const products = [
     item: "Clothing",
     type: "Blazers & Jackets",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-01/3222506600/STU_0822.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/3222506600/STU_0815.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/3222506600/STU_0826.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/3222506600/STU_0817.jpg",
-      "https://zandokh.com/image/catalog/products/2026-01/3222506600/STU_0814.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/16/42/da/1642da8f049520dd22b32bf5f1c57477.jpg', 'https://i.pinimg.com/236x/ec/45/7d/ec457d7531dcbd197d468f4b46cde6b8.jpg', 'https://i.pinimg.com/236x/25/ef/0c/25ef0c43d15ddc2ce0a9f7a06995fac4.jpg', 'https://i.pinimg.com/236x/ce/e5/28/cee528583fcfca4791f8d73d4640b8c4.jpg', 'https://i.pinimg.com/236x/e9/19/71/e91971560ab10ea335853346c7e4f390.jpg'],
     price: 37,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2689,13 +1832,7 @@ export const products = [
     item: "Clothing",
     type: "Skirt",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3222602675/AV8A9984.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602675/AV8A9978.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602675/AV8A9982.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602675/AV8A9989.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222602675/AV8A9990.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/39/6d/5e/396d5e436abaacfa3d326be617f3b459.jpg', 'https://i.pinimg.com/236x/0c/02/aa/0c02aab186645791ae1cf8b2cdbbef85.jpg', 'https://i.pinimg.com/236x/6f/3b/9e/6f3b9e4998055336014b20b8f9d6d9ab.jpg', 'https://i.pinimg.com/236x/e7/69/48/e76948b1fb070c9e1b6018d47bcffcde.jpg', 'https://i.pinimg.com/236x/96/51/58/96515809a96491953d2e4a31a4c1160e.jpg'],
     price: 33,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2707,13 +1844,7 @@ export const products = [
     item: "Clothing",
     type: "Skirt",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/3222509625/STU_9342.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222509625/STU_9341.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222509625/STU_9333.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222509625/STU_9340.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/3222509625/STU_9343.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/d8/37/35/d83735c9d762bd6b9c43309212f4b877.jpg', 'https://i.pinimg.com/236x/6a/70/36/6a703674ba338346641d374807f8afc4.jpg', 'https://i.pinimg.com/236x/96/d8/34/96d834a192a3e6d92bc31cf68089c3f8.jpg', 'https://i.pinimg.com/236x/c8/0a/40/c80a40bc2ae964113f4dcb1f50db9d14.jpg', 'https://i.pinimg.com/236x/1e/0f/46/1e0f46916219463ac27215457bd87fbb.jpg'],
     price: 38,
     discount: 30,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2725,12 +1856,7 @@ export const products = [
     item: "Clothing",
     type: "Skirt",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226022706/STU_6826.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022706/STU_6828.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022706/STU_6819.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022706/STU_6829.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/41/01/87/4101870f0abb76d7315d195a418a69f2.jpg', 'https://i.pinimg.com/236x/95/ae/52/95ae52f1f1e6d30acaa032faed5b298c.jpg', 'https://i.pinimg.com/236x/bc/5a/72/bc5a72d8c7fa07e7fffea65b85e0ca19.jpg', 'https://i.pinimg.com/236x/6e/2a/79/6e2a79e9e8769297ca7f3d8db5627f8a.jpg'],
     price: 20,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2742,11 +1868,7 @@ export const products = [
     item: "Clothing",
     type: "Skirt",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226022660/STU_7018.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022660/STU_7019.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226022660/STU_7009.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/42/2f/29/422f292b9eee76af76e798f694672a75.jpg', 'https://i.pinimg.com/236x/13/fb/6d/13fb6dde7ca2c03bfb3a2028165f432d.jpg', 'https://i.pinimg.com/236x/94/ad/27/94ad273b5d11222e4d506a2d2df0e711.jpg'],
     price: 16,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2758,12 +1880,7 @@ export const products = [
     item: "Clothing",
     type: "Skirt",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12226012597/STU_5024.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012597/STU_5031.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012597/STU_5022.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12226012597/STU_5030.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/50/f0/84/50f0843e35424970dba40675c09d1f9f.jpg', 'https://i.pinimg.com/236x/df/ca/e6/dfcae6f08af86aa95cbcfa644a7fa4c4.jpg', 'https://i.pinimg.com/236x/84/6a/b2/846ab207357fcb904b023af490eadd47.jpg', 'https://i.pinimg.com/236x/75/c8/d1/75c8d1a0c11c4e940a140b31d5548c93.jpg'],
     price: 20,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2775,13 +1892,7 @@ export const products = [
     item: "Clothing",
     type: "Skirt",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/12225122521/STU_3669.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12225122521/STU_3665.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12225122521/STU_3675.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12225122521/STU_3661.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/12225122521/STU_3666.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/10/e6/d4/10e6d452deaaff89f7c2f2012212617e.jpg', 'https://i.pinimg.com/236x/84/c9/3a/84c93a2b08e1ec17ff52262cb1b007b5.jpg', 'https://i.pinimg.com/236x/b9/bb/2a/b9bb2a5b9cf04958a24eb9f45e608449.jpg', 'https://i.pinimg.com/236x/7b/bd/44/7bbd44a73451fbb34cd26c2a619d4dfa.jpg', 'https://i.pinimg.com/236x/30/db/98/30db982aa29f79dfe8ebac0a59324de4.jpg'],
     price: 33,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2793,14 +1904,7 @@ export const products = [
     item: "Accessories",
     type: "Cap",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/10512603009/image_2026-04-09_15-33-53.png",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603009/image_2026-04-09_15-34-13.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603009/image_2026-04-09_15-33-58.png",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603009/image_2026-04-09_15-34-28.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603009/image_2026-04-09_15-33-58.png",
-      "https://zandokh.com/image/catalog/products/2026-04/10512603009/image_2026-04-09_15-34-07.png"
-    ],
+    image: ['https://i.pinimg.com/236x/25/94/b5/2594b5618cbb1b7568f8389d3bbb24ca.jpg', 'https://i.pinimg.com/236x/05/4b/b0/054bb091bee3edabe14f5f4a33d46288.jpg', 'https://i.pinimg.com/236x/29/e0/a6/29e0a620420755c2800a67cf0576e42c.jpg', 'https://i.pinimg.com/236x/e3/e1/ae/e3e1ae1d45b4b2468f634a7813291d91.jpg', 'https://i.pinimg.com/236x/f6/a9/fd/f6a9fd80c82d0d411dbcbba8126c61b6.jpg', 'https://i.pinimg.com/236x/58/fd/be/58fdbe1b19e6104d5b4ed4f93302887d.jpg'],
     price: 10,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2815,14 +1919,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/53112511014/STU_6187.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511014/STU_6192.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511014/STU_6191.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511014/STU_6188.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511014/STU_6189.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511014/STU_6188_.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/00/e7/d6/00e7d65efb5b202f73bae9d2ac50e98f.jpg', 'https://i.pinimg.com/236x/9c/ec/38/9cec38b897fbbe1e7bba1c65d8e23fff.jpg', 'https://i.pinimg.com/236x/77/65/76/776576a8b9714c2c2d9fb8e279d2016d.jpg', 'https://i.pinimg.com/236x/f0/8f/ae/f08fae4e90d6b7f8d1f00a38b87a493a.jpg', 'https://i.pinimg.com/236x/73/8f/97/738f97b916efecf2280381a2ed3faa38.jpg', 'https://i.pinimg.com/236x/fc/b7/ea/fcb7ea7c254a264f4dce9c2e7f850b64.jpg'],
     price: 39,
     discount: 10,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2834,14 +1931,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/53112511020/STU_6136.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511020/STU_6141.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511020/STU_6140.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511020/STU_6137.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511020/STU_6139.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511020/STU_6137_.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/f2/26/c1/f226c1d71265ade61e339b45eb90e357.jpg', 'https://i.pinimg.com/236x/cd/d3/47/cdd3474c494cc0ae0c60535254a90714.jpg', 'https://i.pinimg.com/236x/f6/49/c3/f649c31c6828f05bd5e33ecc86c0920e.jpg', 'https://i.pinimg.com/236x/88/d4/e4/88d4e49a66357e45d2b8409b3961c9d7.jpg', 'https://i.pinimg.com/236x/bb/3b/43/bb3b439c2c020dd777e9eb40be0398bb.jpg', 'https://i.pinimg.com/236x/fc/39/81/fc39817f77cb2b8109c1afe5bf93f22b.jpg'],
     price: 30,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2853,14 +1943,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/53112511019/AV8A9775.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511019/AV8A9779.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511019/AV8A9778.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511019/AV8A9776.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511019/AV8A9777.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511019/AV8A9776_.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ec/f5/55/ecf5555c8715bb680cfe106f74ccac7f.jpg', 'https://i.pinimg.com/236x/0d/c9/b4/0dc9b43266e0d9de76242ab42b3c178c.jpg', 'https://i.pinimg.com/236x/6d/d1/e3/6dd1e3eec37b912b4430fcb245c72d5a.jpg', 'https://i.pinimg.com/236x/56/fa/08/56fa083db2782c74d2b18656c534fa16.jpg', 'https://i.pinimg.com/236x/16/d9/1c/16d91c58f37c3d7cf36cea767557c53a.jpg', 'https://i.pinimg.com/236x/21/c1/f8/21c1f8ed9182bfc13d354df28c7751f6.jpg'],
     price: 32,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2872,14 +1955,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/53112511015/AV8A9744.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511015/AV8A9750.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511015/AV8A9749.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511015/AV8A9746.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511015/AV8A9747.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511015/AV8A9746_.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/12/8f/75/128f751e9bd7a6c90a998f0a43ae1fe6.jpg', 'https://i.pinimg.com/236x/b5/6f/bf/b56fbfe23189623b5dd12076d8f995f4.jpg', 'https://i.pinimg.com/236x/59/50/90/5950903a78b367a4e8c79e144400e930.jpg', 'https://i.pinimg.com/236x/c2/29/bb/c229bb96f795ea5627b96bde8ee41452.jpg', 'https://i.pinimg.com/236x/21/f5/1e/21f51e631d0a06eaa4404e661831b4e8.jpg', 'https://i.pinimg.com/236x/b7/31/ad/b731ada01bf351ecac6f6ecc54f8192c.jpg'],
     price: 29,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2891,14 +1967,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/53112511017/STU_6156.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511017/STU_6161.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511017/STU_6160.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511017/STU_6157.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511017/STU_6159.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511017/STU_6157_.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ed/1f/1a/ed1f1a588337c9eeb967b09778c926c8.jpg', 'https://i.pinimg.com/236x/c6/30/60/c63060e491ad3a96a9cac2497e0c0bf6.jpg', 'https://i.pinimg.com/236x/eb/c7/ba/ebc7bad18ed1b21e2fa2eed0ba4a15b1.jpg', 'https://i.pinimg.com/236x/9b/bd/87/9bbd87c6d8a283ec1cbd0649fa630da0.jpg', 'https://i.pinimg.com/236x/c7/11/f2/c711f240c484e75a8c59f7160dfd535a.jpg', 'https://i.pinimg.com/236x/ff/27/84/ff2784decf2d94709b65d944f243d97e.jpg'],
     price: 20,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2911,14 +1980,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/53132511042/STU_6175.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53132511042/STU_6179.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53132511042/STU_6178.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53132511042/STU_6176.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53132511042/STU_6176_.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53132511042/STU_6177.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/bb/e2/45/bbe2457b932850d7c22b88363b115857.jpg', 'https://i.pinimg.com/236x/d7/57/34/d75734b2711e3a9b973225ed9cfabc23.jpg', 'https://i.pinimg.com/236x/ca/8e/c3/ca8ec3d2f0f7a67a5f558b455e1eba5b.jpg', 'https://i.pinimg.com/236x/83/4b/05/834b056d6932ef883792f62b851bf15b.jpg', 'https://i.pinimg.com/236x/b7/07/cd/b707cdddac42a2d500eb32da539936a2.jpg', 'https://i.pinimg.com/236x/e5/d4/27/e5d427c5d427c753cf5a724342306e00.jpg'],
     price: 29,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2931,14 +1993,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/53112511018/AV8A9727.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511018/AV8A9732.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511018/AV8A9731.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511018/AV8A9729.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511018/AV8A9729%20-%20Copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511018/AV8A9730.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/ac/02/d8/ac02d866756d2197d3bdf2e7e1a05fbf.jpg', 'https://i.pinimg.com/236x/18/c5/e8/18c5e8c169b0eb811a5bc0e70bd084d5.jpg', 'https://i.pinimg.com/236x/93/af/8a/93af8aab0747367b03c65a731dc063f7.jpg', 'https://i.pinimg.com/236x/0d/3a/3f/0d3a3f8fea2665bf65e72a22a7129e35.jpg', 'https://i.pinimg.com/236x/06/b4/d7/06b4d7a654bead0aff4c1e0ca196a595.jpg', 'https://i.pinimg.com/236x/d6/ec/32/d6ec320ae2be26abeb2f864b9573b7e6.jpg'],
     price: 26,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2951,14 +2006,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: true,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-04/53112511016/AV8A9752.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511016/AV8A9756.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511016/AV8A9755.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511016/AV8A9753.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511016/AV8A9753%20-%20Copy.jpg",
-      "https://zandokh.com/image/catalog/products/2026-04/53112511016/AV8A9754.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/3e/a4/30/3ea430b58bee1d2a912985c2e6f42c4a.jpg', 'https://i.pinimg.com/236x/ce/aa/2d/ceaa2de1bef9f53691a04a6f79730629.jpg', 'https://i.pinimg.com/236x/4e/c1/6f/4ec16fc7f5613a2e4dfcd4dad98f985c.jpg', 'https://i.pinimg.com/236x/ba/4d/b7/ba4db7863b602423be0c41e1f2a95f95.jpg', 'https://i.pinimg.com/236x/fd/87/db/fd87dbf8d9f3102a36f48a4af69d2f88.jpg', 'https://i.pinimg.com/236x/79/a6/77/79a67726663a44b2a9d51b3a5e79041b.jpg'],
     price: 21,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2971,14 +2019,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/56112508003/TAKK8121.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/56112508003/TAKK8124.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/56112508003/TAKK8125.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/56112508003/TAKK8122.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/56112508003/TAKK8122_.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/56112508003/TAKK8123.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/22/54/c1/2254c132cf5591122894e8c6c8771b8d.jpg', 'https://i.pinimg.com/236x/88/3d/0c/883d0c354ce74d8ae39ce1fa66cde7d2.jpg', 'https://i.pinimg.com/236x/c1/22/12/c122123dde47cef71506f3883ee218f6.jpg', 'https://i.pinimg.com/236x/16/cf/1e/16cf1ebb9d7faaf9b8d91d36ce203300.jpg', 'https://i.pinimg.com/236x/e6/69/42/e669426e17c601ab2494439f6d6670bc.jpg', 'https://i.pinimg.com/236x/b5/03/c2/b503c25b310867e6536b25d0b451684d.jpg'],
     price: 29,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -2991,14 +2032,7 @@ export const products = [
     item: "Accessories",
     type: "Shoes",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-03/54112508012/TAKK8225.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/54112508012/TAKK8228.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/54112508012/TAKK8229.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/54112508012/TAKK8226.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/54112508012/TAKK8226_.jpg",
-      "https://zandokh.com/image/catalog/products/2026-03/54112508012/TAKK8227.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/d6/92/1d/d6921d21bef4306318f2239dac5e7095.jpg', 'https://i.pinimg.com/236x/5b/b5/43/5bb5430436ff4a195624eb32bc05f01e.jpg', 'https://i.pinimg.com/236x/42/c4/32/42c4320a89f23f70551750f4ec26902c.jpg', 'https://i.pinimg.com/236x/24/b2/ea/24b2ea9a2178d66d6a0b4f86bbb74cfa.jpg', 'https://i.pinimg.com/236x/26/87/eb/2687eb1237fe29cbaf9d4d545a5b573a.jpg', 'https://i.pinimg.com/236x/98/3b/3c/983b3c1f0531689e5ff0596c4da8e351.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3013,13 +2047,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/53132511007/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511007/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511007/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511007/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511007/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/f8/7a/24/f87a249fa295801576f71dd41fd0a8e7.jpg', 'https://i.pinimg.com/236x/5d/ab/77/5dab77442e5ebea07182aa7c7d29216d.jpg', 'https://i.pinimg.com/236x/b7/8a/a0/b78aa0939e091c8a9bc55d3c9ab02337.jpg', 'https://i.pinimg.com/236x/82/0d/86/820d860d09a25b6181f5cd9d2c3e7b7f.jpg', 'https://i.pinimg.com/236x/cc/6a/c7/cc6ac76fa1e1c5a430432603fa8e1677.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3032,13 +2060,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/53132511015/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511015/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511015/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511015/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511015/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/6e/f3/52/6ef352802a7c6bee0716dbb34c2731cd.jpg', 'https://i.pinimg.com/236x/1b/e1/c9/1be1c96192ab49001608a35c1c6beed4.jpg', 'https://i.pinimg.com/236x/40/51/9e/40519e1895b898f9fe1010b24fedef2d.jpg', 'https://i.pinimg.com/236x/03/b1/ee/03b1ee4f44521a0f43fde0ba4310a256.jpg', 'https://i.pinimg.com/236x/a8/e7/6e/a8e76e3a4fb7b768d02c70e63b1db322.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3051,13 +2073,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5372511013%20one/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5372511013%20one/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5372511013%20one/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5372511013%20one/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5372511013%20one/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/32/49/64/324964327718a3fc5487ae64b29a8f66.jpg', 'https://i.pinimg.com/236x/e7/2b/14/e72b14bf042bf6e5ad23039528a805c9.jpg', 'https://i.pinimg.com/236x/6b/3c/94/6b3c949946d3cea47930979033eda315.jpg', 'https://i.pinimg.com/236x/20/c4/97/20c497eb3e38a498bbd0269a92e815ac.jpg', 'https://i.pinimg.com/236x/dd/82/c4/dd82c426f26ef3a001b6c3e6dcdaa93a.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3069,13 +2085,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: true,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5312511041%20WH/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511041%20WH/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511041%20WH/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511041%20WH/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511041%20WH/16.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/a8/66/97/a86697e6e0a63603bcded98c689dc333.jpg', 'https://i.pinimg.com/236x/88/ff/21/88ff213bbf10b229ff3c0515178a019a.jpg', 'https://i.pinimg.com/236x/26/99/46/26994683bd27184696df40435c4ab51d.jpg', 'https://i.pinimg.com/236x/fc/d4/33/fcd433b815170329a95f574c41d4edd8.jpg', 'https://i.pinimg.com/236x/8a/71/36/8a71366832b672a1f50fbb9e7c61e64a.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3087,13 +2097,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5372511005/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5372511005/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5372511005/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5372511005/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5372511005/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/d2/03/a8/d203a8aabb198ec42410f6839832f2b3.jpg', 'https://i.pinimg.com/236x/93/c4/70/93c4703c6228a51b2253b48047eaeace.jpg', 'https://i.pinimg.com/236x/f1/cc/5d/f1cc5dab6e793b16118987fcf9aa7388.jpg', 'https://i.pinimg.com/236x/93/47/7c/93477c5c32e021a8c514f2f7da9230b1.jpg', 'https://i.pinimg.com/236x/14/6e/51/146e51451e1d84b7340b1741b7cbecc8.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3105,13 +2109,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5312511034%20BL/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511034%20BL/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511034%20BL/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511034%20BL/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511034%20BL/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/6e/64/bd/6e64bda30f748881314184d4a6638b0f.jpg', 'https://i.pinimg.com/236x/85/27/12/852712c87cdfe20b589e97c004ed0c99.jpg', 'https://i.pinimg.com/236x/cd/ca/04/cdca041b316d1652b8e3794bab9e4284.jpg', 'https://i.pinimg.com/236x/ce/17/a5/ce17a5c67f8d3c0e6dfc602420f131fb.jpg', 'https://i.pinimg.com/236x/0c/2b/06/0c2b0654681baa0a5d345f83e0e5ec23.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3123,13 +2121,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/53132511013/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511013/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511013/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511013/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511013/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/97/74/97/977497edf1aaacd4a66d5de4d0115c60.jpg', 'https://i.pinimg.com/236x/74/39/ac/7439ac955a36f150c1b2fdb58d61d160.jpg', 'https://i.pinimg.com/236x/7e/98/b4/7e98b4c53a84d5c2d8d952c1433cc755.jpg', 'https://i.pinimg.com/236x/e5/74/be/e574be185b6921db05c8cde85f567fa3.jpg', 'https://i.pinimg.com/236x/60/de/98/60de982ddbe2d4f998f2ad48838b28a7.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3141,13 +2133,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/53132511011/999.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511011/991.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511011/992.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511011/993.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511011/994.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/01/78/57/01785751c933316bc1cb295a277f7ab8.jpg', 'https://i.pinimg.com/236x/56/4b/91/564b9126da5b8057f92c8d91ba05ff09.jpg', 'https://i.pinimg.com/236x/25/e7/3f/25e73fd8c1406d8244a3bef3983aa099.jpg', 'https://i.pinimg.com/236x/04/9b/d0/049bd042d2412fd537743437979097b0.jpg', 'https://i.pinimg.com/236x/23/2e/ea/232eeaf2b8f3d56a2ea0e2624b51710a.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3159,12 +2145,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/53132511009%20orange/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511009%20orange/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511009%20orange/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/53132511009%20orange/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/36/03/5d/36035d67a2c262842010ea6e5a4512d2.jpg', 'https://i.pinimg.com/236x/c4/53/ba/c453bac435d93f72330ec08f102b23e6.jpg', 'https://i.pinimg.com/236x/1b/15/10/1b15109936865e725ae264035174b71e.jpg', 'https://i.pinimg.com/236x/00/70/31/0070316bb971ea916c677be84792cef5.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3176,13 +2157,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5312511026%20BL/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511026%20BL/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511026%20BL/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511026%20BL/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511026%20BL/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/236x/b5/3b/47/b53b47969efe38d55bd06130eb561c45.jpg', 'https://i.pinimg.com/originals/7c/cb/96/7ccb96d0fc39cbb0dcd7f90383faf7eb.jpg', 'https://i.pinimg.com/originals/ee/c6/41/eec64132b3fe3c0c24cfc7a7a2aa0778.jpg', 'https://i.pinimg.com/originals/75/d5/34/75d534ff37b16370e5bb520116d525c4.jpg', 'https://i.pinimg.com/originals/28/06/8c/28068c9069483c28d98091ea2fe83fb2.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3194,13 +2169,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5312511024%20BL/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511024%20BL/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511024%20BL/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511024%20BL/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511024%20BL/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/6c/05/e4/6c05e4a82369f2be83a289ada2bd04e2.jpg', 'https://i.pinimg.com/originals/87/de/56/87de566fa8b679e7eb5c22f7b35020c6.jpg', 'https://i.pinimg.com/originals/42/49/0c/42490c88aec3cdb4f241aa8772717216.jpg', 'https://i.pinimg.com/originals/5b/ad/83/5bad837a5920d3df82363e8d3cd0ff0a.jpg', 'https://i.pinimg.com/originals/15/42/28/154228dbc07c15550d6b17b50b044da5.jpg'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
@@ -3212,13 +2181,7 @@ export const products = [
     item: "Clothing",
     type: "T-Shirts",
     isNewIn: false,
-    image: [
-      "https://zandokh.com/image/catalog/products/2026-05/5312511023/1.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511023/2.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511023/3.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511023/4.jpg",
-      "https://zandokh.com/image/catalog/products/2026-05/5312511023/15.jpg"
-    ],
+    image: ['https://i.pinimg.com/originals/0f/9d/06/0f9d0686239e425ae23b2a848a66e5c0.png', 'https://i.pinimg.com/originals/cc/76/97/cc769799797858d18701b78252bf16c0.jpg', 'https://i.pinimg.com/originals/c5/d6/58/c5d6581e290480256146ff8c1d3e2a0c.jpg', 'https://i.pinimg.com/originals/52/f4/69/52f4691966d74a6ee330c37b3bf864cd.png', 'https://i.pinimg.com/originals/ac/cf/df/accfdf980066f2ab126aecaf1d1d7425.png'],
     price: 19,
     discount: 0,
     discription: "Oversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-ShirtOversized Mid-Length Women's Crew Neck GOODLIFE Embroidered T-Shirt Yellow Casual Short Sleeve Knitted Fabric Animal,Graphic,Letter,Slogan Non-Stretch Women Clothing, size features are:Bust: ,Length: ,Sleeve"
