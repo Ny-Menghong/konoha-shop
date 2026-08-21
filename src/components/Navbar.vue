@@ -1,19 +1,23 @@
 <template>
-  <nav :class="DarkMode.isDark ? 'bg-gray-800 text-white border-b': 'bg-gray-100 text-black'" class="sticky top-0 shadow-md z-50">
+  <nav
+    :class="DarkMode.isDark ? 'bg-ink-950/95 text-white border-white/10' : 'bg-white/95 text-gray-900 border-gray-200'"
+    class="sticky top-0 z-50 backdrop-blur-xl border-b-2 border-konoha-500 shadow-[0_2px_20px_-6px_rgba(234,88,12,0.35)]"
+  >
     <div class="relative max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
       <!-- LEFT MENU (Desktop) -->
       <div class="hidden lg:flex space-x-6 items-center">
         <Menu />
       </div>
       <!-- MOBILE MENU BUTTON -->
-      <button @click="menuOpen = !menuOpen" class="lg:hidden text-3xl">
+      <button @click="menuOpen = !menuOpen" class="lg:hidden text-3xl hover:text-konoha-500 transition">
         ☰
       </button>
 
       <!-- LOGO -->
-      <router-link to="/" class="text-2xl font-bold text-blue-600 flex gap-5">
-        <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOewHN1AFa36Ar-rUCVlJySi_QUKiCFfN1qT_0LqSUHQ&s=10" alt="logo">
-        Konoha
+      <router-link to="/" class="flex items-center gap-2 group">
+        <img width="42px" src="https://images.seeklogo.com/logo-png/21/2/konoha-logo-png_seeklogo-213120.png" alt="logo" class="transition-transform duration-500 group-hover:rotate-[360deg]">
+        <span class="title-jutsu text-xl md:text-2xl text-konoha-600" :class="DarkMode.isDark ? '!text-konoha-400' : ''">KONOHA</span>
+        <span class="font-jp text-konoha-500/70 text-xs hidden md:inline">木ノ葉</span>
       </router-link>
 
       <!-- RIGHT SIDE -->
@@ -21,54 +25,55 @@
         <!-- SEARCH -->
         <button
           @click="toggleSearch"
-          class="hidden md:block text-lg text-gray-600 hover:text-blue-500 transition border p-1 pe-20 rounded-lg "
+          class="hidden md:block text-sm opacity-60 hover:opacity-100 hover:text-konoha-500 transition border p-1.5 pe-16 rounded-full"
+          :class="DarkMode.isDark ? 'border-white/25' : 'border-gray-300'"
         >
-          <i class="bi bi-search px-4"></i>Search
+          <i class="bi bi-search px-3"></i>Search
         </button>
 
-        <button @click="toggleSearch" class="md:hidden font-bold text-xl">
+        <button @click="toggleSearch" class="md:hidden font-bold text-xl hover:text-konoha-500 transition">
           <i class="bi bi-search"></i>
         </button>
 
         <!-- CART -->
         <button
+          id="cart-icon-anchor"
           @click="openCart = true"
-          class="relative text-2xl hover:text-gray-400"
+          class="relative text-2xl hover:text-konoha-500 transition"
         >
           <span
-            class="absolute -top-2 -right-2 bg-red-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center"
+            v-if="cart.totalItems > 0"
+            class="absolute -top-2 -right-2 bg-sharingan-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold"
           >
             {{ cart.totalItems }}
           </span>
           <i class="bi bi-bag"></i>
         </button>
         <!-- DARK MODE -->
-        <button @click="t.toggleTheme()" class="hover:text-gray-400 text-2xl">
+        <button @click="t.toggleTheme()" class="hover:text-konoha-500 transition text-2xl">
           <i class="bi bi-moon"></i>
         </button>
-        <div v-if="!auth.isLogin" class="hidden md:flex gap-2">
+        <div v-if="!auth.isLogin" class="hidden md:flex gap-2 items-center">
           <!-- LOGIN -->
           <RouterLink
             to="/login"
-            class="border px-3 py-1 rounded-lg hover:bg-gray-300 hover:text-white transition"
+            class="border-2 border-konoha-500 text-konoha-600 px-4 py-1 rounded-full hover:bg-konoha-500 hover:text-white transition font-bold text-sm"
+            :class="DarkMode.isDark ? '!text-konoha-400' : ''"
           >
             LOGIN
           </RouterLink>
-  
+
           <!-- REGISTER -->
-          <RouterLink
-            to="/register"
-            class="border px-3 py-1 rounded-lg hover:bg-gray-300 hover:text-white transition"
-          >
+          <RouterLink to="/register" class="btn-jutsu !px-4 !py-1 !text-sm !rounded-full">
             REGISTER
           </RouterLink>
         </div>
-        <div  v-else @click="router.push('/profile')" class="pr-4 hidden md:block">
+        <div v-else @click="router.push('/profile')" class="pr-4 hidden md:block cursor-pointer hover:text-konoha-500 transition">
           <i class="bi bi-person-fill"></i>
           {{ auth.userInfo.name }}
         </div>
         <!-- MOBILE USER ICON -->
-        <div @click="auth.isLogin?router.push('/profile'):router.push('/register')" class="text-black md:hidden text-2xl">
+        <div @click="auth.isLogin?router.push('/profile'):router.push('/register')" class="text-konoha-500 md:hidden text-2xl">
           <i class="bi bi-person-fill"></i>
         </div>
       </div>
@@ -89,19 +94,19 @@
 
     <!-- MOBILE SIDEBAR -->
     <div
-      class="mobile-sidebar lg:hidden border-r fixed left-0 top-0 w-10/12 md:w-1/2 h-screen shadow-lg z-50"
+      class="mobile-sidebar lg:hidden fixed left-0 top-0 w-10/12 md:w-1/2 h-screen shadow-lg z-50"
       :class="{ 'is-open': menuOpen }"
     >
       <aside
-        class="py-4 space-y-2 h-screen"
+        class="py-4 space-y-2 h-screen bg-stripes-naruto"
         :class="
-          DarkMode.isDark ? 'bg-gray-950 text-white' : 'bg-gray-100 text-black'
+          DarkMode.isDark ? 'bg-ink-950 text-white' : 'bg-white text-gray-900'
         "
       >
         <!-- CLOSE BUTTON -->
-        <div class="flex justify-between items-center px-4 pb-4 border-b">
-          <h1 class="text-2xl font-bold text-blue-600">Menu</h1>
-          <button @click="menuOpen = false" class="text-3xl hover:text-red-500">
+        <div class="flex justify-between items-center px-4 pb-4 border-b border-gray-200" :class="DarkMode.isDark ? '!border-white/10' : ''">
+          <h1 class="title-jutsu text-2xl text-konoha-600" :class="DarkMode.isDark ? '!text-konoha-400' : ''">Menu</h1>
+          <button @click="menuOpen = false" class="text-3xl hover:text-sharingan-500 transition">
             ✕
           </button>
         </div>
@@ -115,24 +120,24 @@
       <div
         v-if="searchOpen"
         :class="
-          DarkMode.isDark ? 'bg-gray-700 text-white' : 'bg-gray-100 text-black'
+          DarkMode.isDark ? 'bg-ink-900 text-white' : 'bg-white text-gray-900'
         "
-        class="absolute top-0 left-0 w-full shadow-xl border-t z-50 overflow-hidden"
+        class="absolute top-0 left-0 w-full shadow-xl border-t-2 border-konoha-500 z-50 overflow-hidden"
       >
         <div class="max-w-6xl mx-auto px-6 py-8">
-          <div class="flex items-center border-b pb-4">
+          <div class="flex items-center border-b-2 border-konoha-500 pb-4">
             <!-- INPUT -->
             <input
               v-model="searchStore.search"
               @keyup.enter="(handleSearch(), (searchOpen = false))"
               type="text"
               placeholder="What are you searching for?"
-              class="w-full outline-none md:text-2xl text-xl font-light"
+              class="w-full outline-none md:text-2xl text-xl font-light bg-transparent placeholder:text-gray-400"
             />
             <!-- SEARCH ICON -->
             <button
               @click="(handleSearch(), (searchOpen = false))"
-              class="text-2xl mr-5 hover:scale-110 transition duration-300"
+              class="text-2xl mr-5 hover:scale-110 hover:text-konoha-500 transition duration-300"
             >
               <i class="bi bi-search"></i>
             </button>
@@ -140,7 +145,7 @@
             <!-- CLOSE -->
             <button
               @click="searchOpen = false"
-              class="text-4xl p-1 px-2 rounded-full hover:bg-gray-200 transition duration-500"
+              class="text-4xl p-1 px-2 rounded-full hover:bg-sharingan-500/10 hover:text-sharingan-500 transition duration-500"
             >
               ×
             </button>
@@ -162,23 +167,22 @@
     >
       <div
         :class="
-          DarkMode.isDark ? 'bg-gray-950 text-white' : 'bg-gray-100 text-black'
+          DarkMode.isDark ? 'bg-ink-950 text-white' : 'bg-white text-gray-900'
         "
         class="h-screen flex flex-col"
       >
         <div
-          class="flex justify-between items-center p-4 border-b"
-          :class="DarkMode.isDark ? 'border-gray-700' : 'border-gray-200'"
+          class="flex justify-between items-center p-4 border-b-2 border-konoha-500/40"
         >
-          <h1 class="text-xl font-bold">Cart ({{ cart.totalItems }})</h1>
-          <button @click="openCart = false" class="text-2xl">×</button>
+          <h1 class="title-jutsu text-xl text-konoha-600" :class="DarkMode.isDark ? '!text-konoha-400' : ''">Cart ({{ cart.totalItems }})</h1>
+          <button @click="openCart = false" class="text-2xl hover:text-sharingan-500 transition">×</button>
         </div>
         <div class="flex-1 overflow-y-auto p-4 space-y-3">
           <div
             v-if="cart.items.length === 0"
             class="text-center text-gray-400 py-10"
           >
-            <i class="bi bi-bag text-4xl block mb-2"></i>
+            <i class="bi bi-bag text-4xl block mb-2 text-konoha-400"></i>
             Your cart is empty
           </div>
           <div
@@ -188,12 +192,12 @@
           >
             <img
               :src="item.image[0]"
-              class="w-14 h-16 object-cover rounded-xl flex-shrink-0"
+              class="w-14 h-16 object-cover rounded-xl flex-shrink-0 border border-konoha-500/30"
             />
             <div class="flex-1 min-w-0">
               <p class="text-xs font-semibold truncate">{{ item.type }}</p>
               <p class="text-xs text-gray-400">x{{ item.quantity }}</p>
-              <p class="text-sm font-bold">
+              <p class="text-sm font-bold text-konoha-600" :class="DarkMode.isDark ? '!text-konoha-400' : ''">
                 ${{
                   (
                     (item.discount > 0
@@ -205,7 +209,7 @@
             </div>
             <button
               @click="cart.removeItem(item.id)"
-              class="text-gray-400 hover:text-red-500 transition"
+              class="text-gray-400 hover:text-sharingan-500 transition"
             >
               <i class="bi bi-x-lg text-sm"></i>
             </button>
@@ -213,16 +217,15 @@
         </div>
         <div
           v-if="cart.items.length > 0"
-          class="p-4 border-t"
-          :class="DarkMode.isDark ? 'border-gray-700' : 'border-gray-200'"
+          class="p-4 border-t-2 border-konoha-500/40"
         >
           <div class="flex justify-between font-bold mb-3">
             <span>Total</span>
-            <span>${{ cart.totalPrice.toFixed(2) }}</span>
+            <span class="text-konoha-600" :class="DarkMode.isDark ? '!text-konoha-400' : ''">${{ cart.totalPrice.toFixed(2) }}</span>
           </div>
           <button
             @click="goToCart"
-            class="w-full bg-black text-white py-3 rounded-xl font-semibold hover:bg-gray-800 transition"
+            class="btn-jutsu w-full"
           >
             View Cart
           </button>
@@ -272,6 +275,17 @@ const handleSearch = () => {
 </script>
 
 <style scoped>
+.kurama-bump {
+  animation: kurama-land-bump 0.6s ease;
+}
+
+@keyframes kurama-land-bump {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.5) rotate(-12deg); }
+  60% { transform: scale(0.85) rotate(8deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
 .mobile-sidebar {
   transform: translateX(-100%);
   opacity: 0;

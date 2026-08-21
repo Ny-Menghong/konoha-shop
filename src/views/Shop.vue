@@ -7,26 +7,26 @@
     "
   >
         <div v-if="searchStore.submittedSearch" class="mx-4 my-3">
-          <div class="flex items-center border-b">
+          <div class="flex items-center border-b-2 border-konoha-500/60 max-w-xl mx-auto">
             <!-- INPUT -->
             <input
               v-model="searchStore.search"
               @keyup.enter="(handleSearch())"
               type="text"
               placeholder="What are you searching for?"
-              class="w-full outline-none md:text-xl text-shadow-2xs font-light"
+              class="w-full outline-none md:text-xl text-shadow-2xs font-light bg-transparent py-2"
             />
             <!-- SEARCH ICON -->
             <button
               @click="(handleSearch())"
-              class="text-2xl mr-5 hover:scale-110 transition duration-300"
+              class="text-2xl mr-5 hover:scale-110 hover:text-konoha-500 transition duration-300"
             >
               <i class="bi bi-search"></i>
             </button>
             <!-- CLOSE -->
             <button
               @click="searchStore.submittedSearch = ''"
-              class="text-4xl p-1 px-2 rounded-full hover:bg-gray-200 transition duration-500"
+              class="text-4xl p-1 px-2 rounded-full hover:bg-sharingan-500/10 hover:text-sharingan-500 transition duration-500"
             >
               ×
             </button>
@@ -35,20 +35,21 @@
     <div class="max-w-7xl mx-auto px-4 py-10">
       <!-- Header -->
       <div class="mb-8">
-        <h1 class="text-3xl font-bold">Shop</h1>
-        <p class="text-gray-400 mt-1">{{ filtered.length }} products</p>
+        <span class="tag-ninja mb-2">商店 · The Armory</span>
+        <h1 class="heading-section mt-2">Shop <span :class="DarkMode.isDark ? 'text-konoha-400' : 'text-konoha-600'">All Gear</span></h1>
+        <p class="text-gray-400 mt-1">{{ filtered.length }} products in the village vault</p>
       </div>
       <div class="flex gap-6">
         <!-- Filters Sidebar -->
         <aside class="hidden lg:block w-56 flex-shrink-0">
           <div
-            :class="DarkMode.isDark ? 'bg-gray-800' : 'bg-white'"
-            class="rounded-2xl p-5 sticky top-24 shadow-sm"
+            :class="DarkMode.isDark ? 'bg-ink-800 border-white/10' : 'bg-white border-konoha-500/20'"
+            class="rounded-2xl p-5 sticky top-24 shadow-sm border"
           >
-            <h3 class="font-semibold mb-4">Filters</h3>
+            <h3 class="title-jutsu text-lg mb-4 text-konoha-600" :class="DarkMode.isDark ? '!text-konoha-400' : ''">Filters</h3>
             <!-- Category -->
             <div class="mb-5">
-              <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">
+              <p class="font-jp text-xs uppercase tracking-[0.25em] text-konoha-500 mb-2">
                 Category
               </p>
               <div class="space-y-1">
@@ -56,13 +57,13 @@
                   v-for="cat in categories"
                   :key="cat"
                   @click="selectedCat = cat"
-                  class="block w-full text-left text-sm px-3 py-1.5 rounded-lg transition"
+                  class="block w-full text-left text-sm px-3 py-1.5 rounded-lg transition font-medium"
                   :class="
                     selectedCat === cat
-                      ? 'bg-black text-white'
+                      ? 'bg-konoha-600 text-white shadow-md shadow-konoha-600/30'
                       : DarkMode.isDark
-                        ? 'hover:bg-gray-700'
-                        : 'hover:bg-gray-100'
+                        ? 'hover:bg-white/10'
+                        : 'hover:bg-konoha-50'
                   "
                 >
                   {{ cat }}
@@ -72,7 +73,7 @@
 
             <!-- Type -->
             <div class="mb-5">
-              <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">
+              <p class="font-jp text-xs uppercase tracking-[0.25em] text-konoha-500 mb-2">
                 Type
               </p>
               <div class="space-y-1">
@@ -80,13 +81,13 @@
                   v-for="t in types"
                   :key="t"
                   @click="selectedType = t"
-                  class="block w-full text-left text-sm px-3 py-1.5 rounded-lg transition"
+                  class="block w-full text-left text-sm px-3 py-1.5 rounded-lg transition font-medium"
                   :class="
                     selectedType === t
-                      ? 'bg-black text-white'
+                      ? 'bg-konoha-600 text-white shadow-md shadow-konoha-600/30'
                       : DarkMode.isDark
-                        ? 'hover:bg-gray-700'
-                        : 'hover:bg-gray-100'
+                        ? 'hover:bg-white/10'
+                        : 'hover:bg-konoha-50'
                   "
                 >
                   {{ t }}
@@ -96,7 +97,7 @@
 
             <!-- New In Only -->
             <label class="flex items-center gap-2 cursor-pointer text-sm mt-2">
-              <input type="checkbox" v-model="newInOnly" class="accent-black" />
+              <input type="checkbox" v-model="newInOnly" class="accent-konoha-500 w-4 h-4" />
               New In Only
             </label>
           </div>
@@ -110,10 +111,10 @@
               v-model="sortBy"
               :class="
                 DarkMode.isDark
-                  ? 'bg-gray-800 text-white border-gray-600'
-                  : 'bg-white border-gray-200'
+                  ? 'bg-ink-800 text-white border-white/20'
+                  : 'bg-white border-konoha-500/30'
               "
-              class="border text-sm px-3 py-2 rounded-lg outline-none"
+              class="border text-sm px-3 py-2 rounded-full outline-none focus:border-konoha-500 transition"
             >
               <option value="default">Sort: Default</option>
               <option value="price-asc">Price: Low → High</option>
@@ -127,11 +128,11 @@
                 v-for="cat in categories.slice(1)"
                 :key="cat"
                 @click="selectedCat = selectedCat === cat ? 'All' : cat"
-                class="text-xs px-3 py-1.5 rounded-full border transition"
+                class="text-xs px-3 py-1.5 rounded-full border transition font-semibold"
                 :class="
                   selectedCat === cat
-                    ? 'bg-black text-white border-black'
-                    : 'border-gray-300'
+                    ? 'bg-konoha-600 text-white border-transparent shadow-md shadow-konoha-600/30'
+                    : DarkMode.isDark ? 'border-white/20' : 'border-gray-300'
                 "
               >
                 {{ cat }}
@@ -151,8 +152,8 @@
             />
           </div>
           <div v-else class="text-center py-24 text-gray-400">
-            <i class="bi bi-box-seam text-5xl mb-4 block"></i>
-            No products found.
+            <i class="bi bi-box-seam text-5xl mb-4 block text-konoha-500/50"></i>
+            No products found in the vault.
           </div>
         </div>
       </div>

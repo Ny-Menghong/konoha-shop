@@ -133,11 +133,33 @@
         </button>
 
       </div>
+      
+      <!-- Test Account -->
+      <div class="mt-6 rounded-xl border-2 border-dashed p-4 transition" :class="DarkMode.isDark ? 'border-konoha-500/40 bg-konoha-500/5' : 'border-konoha-500/50 bg-konoha-50'">
+        <div class="flex items-center justify-between mb-1.5">
+          <p class="text-xs font-bold uppercase tracking-widest text-konoha-600" :class="DarkMode.isDark ? '!text-konoha-400' : ''">
+            <i class="bi bi-lightning-charge-fill"></i>
+            Test Account
+          </p>
+          <span class="font-jp text-[10px] uppercase tracking-widest opacity-40">体験 · Demo</span>
+        </div>
+
+        <p class="text-xs font-mono mb-3" :class="DarkMode.isDark ? 'text-white/60' : 'text-gray-500'">
+          {{ auth.testUser.name }} · {{ auth.testUser.email }} / {{ auth.testUser.password }}
+        </p>
+
+        <button
+          @click="fillTestForm"
+          class="w-full text-xs font-bold py-2 rounded-lg bg-konoha-600 text-white hover:bg-konoha-500 transition shadow-md shadow-konoha-600/30 cursor-pointer"
+        >
+          <i class="bi bi-magic"></i>
+          Autofill Test Data
+        </button>
+      </div>
 
       <!-- Login -->
       <p class="text-center text-sm text-gray-400 mt-6">
         Already have an account?
-
         <RouterLink
           to="/login"
           class="text-blue-500 hover:underline"
@@ -205,5 +227,15 @@ const register = () => {
     password: '',
     agree: false
   }
+}
+
+// Test account: autofill the registration form with demo data
+const fillTestForm = () => {
+  const [first, last] = auth.testUser.name.split(' ')
+  form.value.firstName = first
+  form.value.lastName = last
+  form.value.email = auth.testUser.email
+  form.value.password = auth.testUser.password
+  form.value.agree = true
 }
 </script>

@@ -1,16 +1,22 @@
 <template>
-  <footer :class="darkMode.isDark ? 'bg-gray-800 text-white border-b': 'bg-gray-100 text-black'" class="bg-ink text-cream">
-    <div class="max-w-7xl mx-auto px-6 py-16">
+  <footer class="relative overflow-hidden bg-ink-950 text-white border-t border-konoha-500/30">
+    <div class="absolute inset-0 bg-stripes-naruto"></div>
+    <span class="font-jp font-black absolute -left-4 bottom-0 text-[12rem] leading-none text-white/[0.02] select-none pointer-events-none hidden md:block">里</span>
+
+    <div class="relative max-w-7xl mx-auto px-6 py-16">
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-10 mb-12">
         <!-- Brand -->
         <div class="col-span-3 md:col-span-1">
-          <h2 class="font-display text-3xl text-gold mb-4 font-bold">VH-Shop</h2>
-          <p class="font-body text-xs text-cream/50 leading-relaxed mb-6">
-            Curating the finest pieces from global ateliers. Luxury redefined for the modern connoisseur.
+          <div class="flex items-center gap-3 mb-4">
+            <img width="40" src="https://images.seeklogo.com/logo-png/21/2/konoha-logo-png_seeklogo-213120.png" alt="konoha" class="drop-shadow-[0_0_10px_rgba(255,107,26,0.6)]" />
+            <h2 class="title-jutsu text-3xl text-konoha-400">KONOHA SHOP</h2>
+          </div>
+          <p class="text-xs text-white/50 leading-relaxed mb-6">
+            Gear forged in the Hidden Leaf Village. Premium streetwear for modern shinobi — dattebayo.
           </p>
           <div class="flex gap-4">
             <a v-for="social in socials" :key="social" href="#"
-              class="w-8 h-8 border border-cream/20 flex items-center justify-center text-cream/40 hover:border-gold hover:text-gold transition-all duration-200 text-xs font-mono">
+              class="w-9 h-9 border border-white/15 rounded-full flex items-center justify-center text-white/40 hover:border-konoha-500 hover:text-konoha-400 hover:shadow-[0_0_16px_rgba(255,107,26,0.5)] transition-all duration-300">
               {{ social[0] }}
             </a>
           </div>
@@ -18,10 +24,10 @@
 
         <!-- Links -->
         <div v-for="section in footerLinks" :key="section.title">
-          <h4 class="font-mono text-xs tracking-widest uppercase text-gold mb-5">{{ section.title }}</h4>
+          <h4 class="font-jp text-xs tracking-[0.25em] uppercase text-konoha-500 mb-5">{{ section.title }}</h4>
           <ul class="space-y-3">
-            <li v-for="link in section.links" :key="link">
-              <RouterLink :to="link.to" class="font-body text-xs text-cream/50 hover:text-cream transition-colors duration-200">
+            <li v-for="link in section.links" :key="link.label">
+              <RouterLink :to="link.to" class="text-xs text-white/50 hover:text-konoha-400 transition-colors duration-200">
                 {{ link.label }}
               </RouterLink>
             </li>
@@ -30,14 +36,14 @@
       </div>
 
       <!-- Newsletter -->
-      <div class="border-t border-cream/10 pt-10 mb-10">
+      <div class="border-t border-white/10 pt-10 mb-10">
         <div class="max-w-md">
-          <h4 class="font-display text-xl mb-2">Join the Inner Circle</h4>
-          <p class="text-xs text-cream/40 mb-5">First access to new collections, exclusive offers, and editorial content.</p>
+          <h4 class="title-jutsu text-xl mb-2">Join the <span class="text-konoha-400">Inner Circle</span></h4>
+          <p class="text-xs text-white/40 mb-5">First access to new drops, exclusive offers, and mission intel.</p>
           <div class="flex gap-0">
             <input type="email" placeholder="Your email address"
-              class="flex-1 bg-cream/5 border border-cream/20 px-4 py-3 text-xs text-cream placeholder:text-cream/30 focus:outline-none focus:border-gold transition-colors" />
-            <button class="bg-gold text-ink px-6 py-3 text-xs tracking-widest uppercase font-medium hover:bg-gold-light transition-colors">
+              class="flex-1 bg-white/5 border border-white/15 rounded-l-full px-4 py-3 text-xs text-white placeholder:text-white/30 focus:outline-none focus:border-konoha-500 transition-colors" />
+            <button class="bg-konoha-600 hover:bg-konoha-500 text-white px-6 py-3 text-xs tracking-widest uppercase font-bold rounded-r-full transition-all shadow-lg shadow-konoha-600/30">
               Join
             </button>
           </div>
@@ -45,11 +51,11 @@
       </div>
 
       <!-- Bottom -->
-      <div class="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-cream/10 pt-6">
-        <p class="text-xs text-cream/30 font-mono">© 2026 VH-Shop. All rights reserved.</p>
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-white/10 pt-6">
+        <p class="text-xs text-white/30">© 2026 KONOHA SHOP · 木ノ葉隠れの里 · All rights reserved.</p>
         <div class="flex gap-6">
           <a v-for="item in ['Privacy', 'Terms', 'Cookies']" :key="item" href="#"
-            class="text-xs text-cream/30 hover:text-cream/70 transition-colors font-mono">{{ item }}</a>
+            class="text-xs text-white/30 hover:text-konoha-400 transition-colors">{{ item }}</a>
         </div>
       </div>
     </div>
@@ -58,8 +64,7 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
-import { useDarkMode } from '../stores/DarkMode';
-const darkMode = useDarkMode();
+
 const socials = ['Instagram', 'Pinterest', 'Twitter']
 
 const footerLinks = [

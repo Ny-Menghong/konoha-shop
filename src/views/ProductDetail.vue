@@ -13,22 +13,22 @@
               :src="img"
               @click="activeImage = img"
               class="w-16 h-20 object-cover rounded-xl cursor-pointer border-2 transition flex-shrink-0"
-              :class="activeImage === img ? 'border-black' : 'border-transparent'"
+              :class="activeImage === img ? 'border-konoha-500' : 'border-transparent hover:border-konoha-300'"
             />
           </div>
 
-          <div class="rounded-2xl overflow-hidden aspect-[3/4] mb-3">
+          <div class="rounded-2xl overflow-hidden aspect-[3/4] mb-3 border-2 border-konoha-200" :class="DarkMode.isDark ? '!border-white/10' : ''">
             <img :src="activeImage" class="w-full h-full object-cover" />
           </div>
         </div>
 
         <!-- Info -->
         <div class="py-4">
-          <p class="text-sm text-gray-400 uppercase tracking-widest mb-2">
+          <p class="font-jp text-xs text-konoha-600 uppercase tracking-[0.25em] mb-2 font-bold" :class="DarkMode.isDark ? '!text-konoha-400' : ''">
             {{ product.category_for }} / {{ product.item }} / {{ product.type }}
           </p>
 
-          <h1 class="text-2xl font-bold mb-4">
+          <h1 class="title-jutsu text-3xl md:text-4xl mb-4">
             {{ product.type }} — {{ product.category_for }}
           </h1>
 
@@ -42,15 +42,15 @@
             </span>
 
             <span
-              class="text-3xl font-bold"
-              :class="product.discount > 0 ? 'text-red-500' : ''"
+              class="title-jutsu text-4xl text-konoha-600"
+              :class="[product.discount > 0 ? 'text-sharingan-500' : '', DarkMode.isDark && product.discount <= 0 ? '!text-konoha-400' : '']"
             >
               ${{ discountedPrice }}
             </span>
 
             <span
               v-if="product.discount > 0"
-              class="bg-red-100 text-red-500 text-sm px-2 py-0.5 rounded-full"
+              class="bg-sharingan-600 text-white text-sm px-2.5 py-0.5 rounded-full font-bold"
             >
               -{{ product.discount }}%
             </span>
@@ -62,18 +62,18 @@
 
           <!-- Size -->
           <div class="mb-6">
-            <p class="text-sm font-semibold mb-2">Size</p>
+            <p class="text-sm font-bold mb-2 uppercase tracking-widest">Size</p>
             <div class="flex gap-2">
               <button
                 v-for="s in ['XS','S','M','L','XL']"
                 :key="s"
                 @click="selectedSize = s"
-                class="px-4 py-2 border rounded-lg text-sm transition"
+                class="px-4 py-2 border rounded-lg text-sm transition font-semibold"
                 :class="selectedSize === s
-                  ? 'bg-black text-white border-black'
+                  ? 'bg-konoha-600 text-white border-transparent shadow-md shadow-konoha-600/30'
                   : DarkMode.isDark
-                    ? 'border-gray-600 hover:border-gray-400'
-                    : 'border-gray-300 hover:border-black'"
+                    ? 'border-white/20 hover:border-konoha-400'
+                    : 'border-gray-300 hover:border-konoha-500'"
               >
                 {{ s }}
               </button>
@@ -82,15 +82,15 @@
 
           <!-- Quantity -->
           <div class="flex items-center gap-3 mb-6">
-            <p class="text-sm font-semibold">Qty:</p>
+            <p class="text-sm font-bold uppercase tracking-widest">Qty:</p>
 
             <div
               class="flex items-center border rounded-lg overflow-hidden"
-              :class="DarkMode.isDark ? 'border-gray-600' : 'border-gray-200'"
+              :class="DarkMode.isDark ? 'border-white/20' : 'border-gray-200'"
             >
               <button
                 @click="qty > 1 && qty--"
-                class="px-4 py-2 text-lg hover:bg-gray-100 hover:text-black transition"
+                class="px-4 py-2 text-lg hover:bg-konoha-600 hover:text-white transition"
               >
                 −
               </button>
@@ -99,7 +99,7 @@
 
               <button
                 @click="qty++"
-                class="px-4 py-2 text-lg hover:bg-gray-100 hover:text-black transition"
+                class="px-4 py-2 text-lg hover:bg-konoha-600 hover:text-white transition"
               >
                 +
               </button>
@@ -109,15 +109,15 @@
           <!-- Buttons -->
           <div class="flex gap-3">
             <button
-              @click="handleAdd"
-              class="flex-1 bg-gray-700 text-white py-3.5 rounded-xl font-semibold hover:bg-gray-800 transition"
+              @click="handleAdd($event)"
+              class="btn-jutsu flex-1"
             >
               Add to Cart
             </button>
 
             <button
-              class="w-14 h-14 border rounded-xl flex items-center justify-center hover:border-red-400 hover:text-red-400 transition"
-              :class="DarkMode.isDark ? 'border-gray-600' : 'border-gray-300'"
+              class="w-14 h-14 border rounded-xl flex items-center justify-center hover:border-sharingan-400 hover:text-sharingan-400 transition"
+              :class="DarkMode.isDark ? 'border-white/20' : 'border-gray-300'"
             >
               <i class="bi bi-heart text-lg"></i>
             </button>
@@ -128,16 +128,16 @@
           </p>
         </div>
       </div>
-      <!-- Similar Products -->
       <!-- Similar Products (Horizontal Scroll) -->
-      <h1 class="text-xl font-bold mt-12 mb-4">Similar Items</h1>
+      <h1 class="heading-section mt-12 mb-4">Similar <span :class="DarkMode.isDark ? 'text-konoha-400' : 'text-konoha-600'">Items</span></h1>
       <div class="overflow-x-auto">
         <div class="flex gap-4 pb-4 w-max">
           <div
             v-for="item in similarProducts"
             :key="item.id"
-            class="min-w-[180px] rounded-xl p-2 flex-shrink-0 snap-start transition-all duration-300 ease-in-out
-             hover:shadow-xl hover:-translate-y-1 hover:border-gray-400 cursor-pointer"
+            class="min-w-[180px] rounded-xl p-2 flex-shrink-0 snap-start transition-all duration-300 ease-in-out border-2 border-transparent hover:border-konoha-500
+             hover:shadow-xl hover:-translate-y-1 cursor-pointer"
+            :class="DarkMode.isDark ? 'bg-white/5' : 'bg-white'"
             @click="goToProduct(item.id)"
           >
             <img
@@ -147,7 +147,7 @@
             <p class="text-sm mt-2 font-medium">
               {{ item.name }}
             </p>
-            <p class="text-xs text-gray-500">
+            <p class="text-xs text-konoha-600 font-bold" :class="DarkMode.isDark ? '!text-konoha-400' : ''">
               ${{ item.price }}
             </p>
           </div>
@@ -172,12 +172,14 @@ import { useCart } from '../stores/useCart'
 import { useDarkMode } from '../stores/DarkMode'
 import { useToast } from 'vue-toastification'
 import { useAuth } from '../stores/auth'
+import { useKurama } from '../stores/useKurama'
 
 const route = useRoute()
 const router = useRouter()
 
 const DarkMode = useDarkMode()
 const cart = useCart()
+const kurama = useKurama()
 const toast = useToast()
 const auth = useAuth()
 
@@ -227,7 +229,7 @@ const handleSimilarProduct=()=>{
 }
 
 // Add to cart
-const handleAdd = () => {
+const handleAdd = (e) => {
   if (!auth.isLogin) {
     toast.error('Please create an account first.', {
       timeout: 2000,
@@ -245,6 +247,8 @@ const handleAdd = () => {
       size: selectedSize.value
     })
   }
+
+  kurama.fly(e?.currentTarget)
 
   added.value = true
   setTimeout(() => (added.value = false), 2000)

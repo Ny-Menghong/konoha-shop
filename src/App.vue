@@ -9,11 +9,13 @@
     </RouterView>
   </div>
     <Footer />
+  <KuramaFly />
 </template>
 
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue';
+import KuramaFly from './components/KuramaFly.vue'
 </script>
 
 <style>

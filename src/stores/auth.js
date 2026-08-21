@@ -38,6 +38,25 @@ export const useAuth = defineStore("auth", () => {
     )
   }
 
+  // TEST ACCOUNT (quick demo access)
+  const testUser = {
+    name: "Naruto Uzumaki",
+    email: "naruto@konoha.com",
+    password: "1234",
+  }
+
+  // Seeds the test account into storage so login() accepts it
+  const seedTestUser = () => {
+    userInfo.value = {
+      name: testUser.name,
+      email: testUser.email,
+      password: testUser.password,
+    }
+    localStorage.setItem("name", testUser.name)
+    localStorage.setItem("email", testUser.email)
+    localStorage.setItem("password", testUser.password)
+  }
+
   // LOGIN
   const login = async (email, password) => {
     if (email !== userInfo.value.email) {
@@ -90,6 +109,8 @@ export const useAuth = defineStore("auth", () => {
   return {
     isLogin,
     userInfo,
+    testUser,
+    seedTestUser,
     register,
     login,
     logout

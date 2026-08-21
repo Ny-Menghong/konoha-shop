@@ -1,13 +1,13 @@
 <template>
   <aside class="w-full relative p-4">
-    <RouterLink to="/shop" class="absolute top-4 right-4 text-sm font-bold bg-black px-5 py-2 rounded-xl text-white hover:bg-amber-700">To Shop</RouterLink>
+    <RouterLink to="/shop" class="btn-jutsu absolute top-4 right-4 !px-4 !py-2 !text-xs">To Shop</RouterLink>
     <div>
-      <h3 class="font-semibold mb-4">Filters</h3>
+      <h3 class="title-jutsu text-xl mb-4 text-konoha-600" :class="DarkMode.isDark ? '!text-konoha-400' : ''">Filters</h3>
 
       <!-- Category -->
       <div class="mb-5">
-        <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">
-          Category
+        <p class="font-jp text-xs uppercase tracking-[0.25em] text-konoha-500 mb-2">
+          Category · 種類
         </p>
 
         <div class="space-y-1">
@@ -15,13 +15,13 @@
             v-for="cat in categories"
             :key="cat"
             @click="selectedCat = cat"
-            class="block text-lg w-full text-left hover:pe-1.5 px-3 py-1.5 rounded-lg transition"
+            class="block text-base w-full text-left hover:pe-1.5 px-3 py-1.5 rounded-lg transition font-medium"
             :class="
               selectedCat === cat
-                ? 'bg-black text-white'
+                ? 'bg-konoha-600 text-white shadow-md shadow-konoha-600/30'
                 : DarkMode.isDark
-                  ? 'hover:bg-gray-700'
-                  : 'hover:bg-gray-100'
+                  ? 'hover:bg-white/10'
+                  : 'hover:bg-konoha-50'
             "
           >
             {{ cat }}
@@ -31,8 +31,8 @@
 
       <!-- Type -->
       <div class="mb-5">
-        <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">
-          Type
+        <p class="font-jp text-xs uppercase tracking-[0.25em] text-konoha-500 mb-2">
+          Type · 型
         </p>
 
         <div class="space-y-1">
@@ -40,13 +40,13 @@
             v-for="t in types"
             :key="t"
             @click="selectedType = t"
-            class="block w-full text-left text-sm px-3 py-1.5 rounded-lg transition"
+            class="block w-full text-left text-sm px-3 py-1.5 rounded-lg transition font-medium"
             :class="
               selectedType === t
-                ? 'bg-black text-white'
+                ? 'bg-konoha-600 text-white shadow-md shadow-konoha-600/30'
                 : DarkMode.isDark
-                  ? 'hover:bg-gray-700'
-                  : 'hover:bg-gray-100'
+                  ? 'hover:bg-white/10'
+                  : 'hover:bg-konoha-50'
             "
           >
             {{ t }}

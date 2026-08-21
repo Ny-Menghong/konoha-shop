@@ -1,1 +1,125 @@
 @import "tailwindcss";
+
+/* ══════════════════════════════════════════════
+   KONOHA DESIGN SYSTEM — Modern Naruto Theme
+   ══════════════════════════════════════════════ */
+
+@theme {
+  /* ── Konoha Orange ── */
+  --color-konoha-50: #fff5ec;
+  --color-konoha-100: #ffe8d4;
+  --color-konoha-200: #ffcda8;
+  --color-konoha-300: #ffa970;
+  --color-konoha-400: #ff7a36;
+  --color-konoha-500: #ff6b1a;
+  --color-konoha-600: #ea580c;
+  --color-konoha-700: #c2410c;
+  --color-konoha-800: #9a3412;
+  --color-konoha-900: #7c2d12;
+
+  /* ── Chakra Gold ── */
+  --color-chakra-300: #ffd76a;
+  --color-chakra-400: #fbbf24;
+  --color-chakra-500: #f59e0b;
+
+  /* ── Sharingan Red ── */
+  --color-sharingan-500: #dc2626;
+  --color-sharingan-600: #b91c1c;
+
+  /* ── Shinobi Ink (dark surfaces) ── */
+  --color-ink-800: #1c2939;
+  --color-ink-900: #0f172a;
+  --color-ink-950: #060b16;
+
+  /* ── Fonts ── */
+  --font-display: "Anton", "Impact", sans-serif;
+  --font-body: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-jp: "Noto Sans JP", sans-serif;
+}
+
+/* ── Base ─────────────────────────────────── */
+
+html {
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--color-konoha-500);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-konoha-500);
+  border-radius: 999px;
+}
+
+/* ── Reusable component classes ───────────────
+   Only real Tailwind utilities are referenced
+   here so the build can never break.          */
+
+@layer components {
+  /* Primary button — solid orange, white text (readable everywhere) */
+  .btn-jutsu {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full
+      bg-konoha-600 hover:bg-konoha-500 text-white font-semibold tracking-wide cursor-pointer
+      shadow-lg shadow-konoha-600/30 hover:shadow-konoha-500/40
+      transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0 active:scale-95;
+  }
+
+  /* Secondary outlined button */
+  .btn-scroll {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full
+      border-2 border-gray-900 cursor-pointer font-semibold
+      transition-all duration-300 active:scale-95;
+  }
+
+  /* Display heading font */
+  .title-jutsu {
+    font-family: var(--font-display);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1.05;
+  }
+
+  /* Section heading */
+  .heading-section {
+    font-family: var(--font-display);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1.05;
+    @apply text-3xl md:text-4xl;
+  }
+
+  /* Solid orange badge — readable on ANY background */
+  .tag-ninja {
+    @apply inline-flex items-center gap-2 bg-konoha-600 text-white
+      text-xs font-bold uppercase tracking-[0.2em] px-4 py-1.5 rounded-full shadow-md shadow-konoha-600/25;
+  }
+}
+
+/* ── Decorative helpers (plain CSS, zero risk) ── */
+
+.bg-stripes-naruto {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(234, 88, 12, 0.06) 0px,
+    rgba(234, 88, 12, 0.06) 12px,
+    transparent 12px,
+    transparent 26px
+  );
+}
+
+.chakra-orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(90px);
+  pointer-events: none;
+}
