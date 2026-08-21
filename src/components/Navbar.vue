@@ -11,7 +11,7 @@
       </button>
 
       <!-- LOGO -->
-      <router-link to="/" class="text-2xl font-bold text-blue-600">
+      <router-link to="/" class="text-2xl font-bold text-blue-600 flex gap-5">
         <img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOewHN1AFa36Ar-rUCVlJySi_QUKiCFfN1qT_0LqSUHQ&s=10" alt="logo">
         Konoha
       </router-link>
